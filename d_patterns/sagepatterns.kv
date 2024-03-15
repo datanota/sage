@@ -1,0 +1,138 @@
+
+# :kivy 2.0.0
+#:include num_vs_num.kv
+#:include num_vs_cat.kv
+#:include cat_vs_cat.kv
+#:include common_metrics.kv
+
+<SagePatternsContent>:
+
+    ScreenManager:
+        id: screen_manager
+        canvas:
+            Color:
+                rgb: 212/255, 213/255, 212/255
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+        Screen:
+            name: 'home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    # title: 'window setting'
+                    elevation: 1
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        padding: [10, 0, 0, 25]
+                        GridLayout:
+                            cols: 2
+                            BoxLayout:
+                                orientation: 'horizontal'
+                                spacing: '10dp'
+                                MDRoundFlatIconButton:
+                                    id: default_setting_b
+                                    text: 'default setting'
+                                    font_size: '14sp'
+                                    on_release:
+                                        app.window_size_settings('default')
+                                MDRoundFlatIconButton:
+                                    id: large_setting_b
+                                    text: 'large setting   '
+                                    font_size: '14sp'
+                                    on_release:
+                                        app.window_size_settings('large')
+                        MDRoundFlatIconButton:
+                            name: 'data_home_b'
+                            icon: 'copyright'
+                            text: '2024 Datanota'
+                            font_size: '14sp'
+                            on_release:
+                                app.sage_ss()
+                BoxLayout:
+                    orientation: 'vertical'
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    GridLayout:
+                        cols: 2
+                        padding: '30dp'
+                        BoxLayout:
+                            orientation: 'vertical'
+                            padding: 0, 0, 0, 50
+                            Image:
+                                source: '../utilities/assets/sage_applogo.png'
+                                allow_stretch: True
+                        GridLayout:
+                            rows: 5
+                            spacing: '15dp'
+                            padding: [30, 200, 20, 100]
+                            MDFillRoundFlatIconButton:
+                                name: 'l1_b'
+                                icon: 'numeric-1-box'
+                                text: 'numerical vs. numerical    '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 'numnum'
+                            MDFillRoundFlatIconButton:
+                                name: 'l2_b'
+                                icon: 'numeric-2-box'
+                                text: 'numerical vs. categorical  '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 'numcat'
+                            MDFillRoundFlatIconButton:
+                                name: 'l3_b'
+                                icon: 'numeric-3-box'
+                                text: 'categorical vs. categorical'
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 'catcat'
+                            MDFillRoundFlatIconButton:
+                                name: 'l3_b'
+                                icon: 'numeric-4-box'
+                                text: 'common metrics                '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 'com_met'
+                            MDFillRoundFlatIconButton:
+                                name: 'demo_home_b'
+                                icon: 'play-circle'
+                                text: 'product demo  '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 1, 1, 1
+                                size_hint: 1, None
+                                on_release:
+                                    app.dn_sage_demo()
+        NumNum:
+        NumCat:
+        CatCat:
+        Com_Met:

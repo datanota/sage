@@ -1,0 +1,271 @@
+
+# :kivy 2.0.0
+
+<SageDataContent>:
+
+    ScreenManager:
+        id: screen_manager
+        canvas:
+            Color:
+                rgb: 212/255, 213/255, 212/255
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+        Screen:
+            name: 'home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    MDRoundFlatIconButton:
+                        name: 'data_home_b'
+                        icon: 'copyright'
+                        text: '2024 Datanota'
+                        font_size: '14sp'
+                        pos_hint: {'right': 1, 'top': 1}
+                        # pos_hint: {'center_x':.9}
+                        on_release:
+                            app.sage_ss()
+                BoxLayout:
+                    orientation: 'vertical'
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    GridLayout:
+                        cols: 2
+                        padding: '30dp'
+                        BoxLayout:
+                            orientation: 'vertical'
+                            padding: 0, 0, 0, 50
+                            Image:
+                                source: '../utilities/assets/sage_applogo.png'
+                                allow_stretch: True
+                        GridLayout:
+                            rows: 6
+                            spacing: '15dp'
+                            padding: [30, 300, 20, 250]
+                            MDFillRoundFlatIconButton:
+                                name: 'l1_b'
+                                icon: 'file-excel'
+                                text: 'design dataset   '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 's1'
+                            MDFillRoundFlatIconButton:
+                                name: 'l2_b'
+                                icon: 'export'
+                                text: 'generate data     '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 's2'
+                            MDFillRoundFlatIconButton:
+                                name: 'demo_home_b'
+                                icon: 'play-circle'
+                                text: 'product demo'
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 1, 1, 1
+                                size_hint: 1, None
+                                on_release:
+                                    app.dn_sage_demo()
+
+##########################################################
+########################################################## design a dataset
+##########################################################
+
+        Screen:
+            name: 's1'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ["home", lambda x: app.callback_top_nav('home'), 'home'],
+                        ["file-excel", lambda x: app.callback_top_nav('s1'), 'dataset_design'],
+                        ["export", lambda x: app.callback_top_nav('s2'), 'data_generation']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_ss(), '']
+                        ]
+                BoxLayout:
+                    orientation: 'horizontal'
+                    spacing: '0dp'
+                    padding: '0dp'
+                    TabbedPanel:
+                        tab_width: (self.parent.width - 10) /3
+                        do_default_tab: False
+                        tab_pos: 'bottom_mid'
+                        background_image: ''
+                        background_color: 212/255, 213/255, 212/255
+                        TabbedPanelItem:
+                            id: s1_s1
+                            text: 'activity-to-data'
+                            bold: True
+                            color: 131/255, 171/255, 160/255
+                            background_down: ''
+                            GridLayout:
+                                rows: 2
+                                BoxLayout:
+                                    orientation: 'horizontal'
+                                    size_hint: 1, 0.25
+                                    canvas:
+                                        Color:
+                                            rgb: 131/255, 173/255, 160/255
+                                        Rectangle:
+                                            size: self.size
+                                            pos:self.pos
+                                    MDLabel:
+                                        text: 'Design a Dataset - Shopping Data'
+                                        halign: 'center'
+                                        theme_text_color: 'Custom'
+                                        text_color: 0, 0, 0
+                                        font_size: 60
+                                        padding_x: '50dp'
+                                        size_hint: 1, 1
+                                BoxLayout:
+                                    orientation: 'vertical'
+                                    Image:
+                                        source: '../utilities/assets/design_dataset_s1.png'
+                                        allow_stretch: True
+                        TabbedPanelItem:
+                            id: s1_s2
+                            text: 'attributes'
+                            bold: True
+                            color: 131/255, 171/255, 160/255
+                            background_down: ''
+                            BoxLayout:
+                                orientation: 'vertical'
+                                Image:
+                                    source: '../utilities/assets/design_dataset_s2.png'
+                                    allow_stretch: True
+                        TabbedPanelItem:
+                            id: s1_s3
+                            text: 'attribute-variable-type'
+                            bold: True
+                            color: 131/255, 171/255, 160/255
+                            background_down: ''
+                            BoxLayout:
+                                orientation: 'vertical'
+                                Image:
+                                    source: '../utilities/assets/design_dataset_s3.png'
+                                    allow_stretch: True
+
+##########################################################
+########################################################## generate data
+##########################################################
+
+        Screen:
+            name: 's2'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ["home", lambda x: app.callback_top_nav('home'), 'home'],
+                        ["file-excel", lambda x: app.callback_top_nav('s1'), 'dataset_design'],
+                        ["export", lambda x: app.callback_top_nav('s2'), 'data_generation']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_ss(), '']
+                        ]
+                GridLayout:
+                    cols: 2
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout:
+                            rows: 3
+                            spacing: '20dp'
+                            padding: '10dp'
+                            StackLayout:
+                                orientation: 'lr-tb'
+                                size_hint: 1, 0.2
+                                spacing: '10dp'
+                                MDTextFieldRect:
+                                    id: num_customers
+                                    multiline: False
+                                    cursor_color: 196/255, 204/255, 217/255
+                                    hint_text: 'How many customers?'
+                                    input_filter: 'int'
+                                    padding_y: '10dp'
+                                    hint_text_color: 149/255, 158/255, 167/255
+                                    on_text: self.foreground_color = 196/255, 204/255, 217/255
+                                    size_hint: 0.35, None
+                                    height: '50dp'
+                                    color: 196/255, 204/255, 217/255
+                                    font_size: '20sp'
+                                    background_normal: ''
+                                    background_color: 90/255, 101/255, 108/255
+                                MDTextFieldRect:
+                                    id: num_products
+                                    multiline: False
+                                    cursor_color: 196/255, 204/255, 217/255
+                                    hint_text: 'How many products?'
+                                    input_filter: 'int'
+                                    padding_y: '10dp'
+                                    hint_text_color: 149/255, 158/255, 167/255
+                                    on_text: self.foreground_color = 196/255, 204/255, 217/255
+                                    size_hint: 0.35, None
+                                    height: '50dp'
+                                    color: 196/255, 204/255, 217/255
+                                    font_size: '20sp'
+                                    background_normal: ''
+                                    background_color: 90/255, 101/255, 108/255
+                                Button:
+                                    name: 'data_check_b'
+                                    icon: 'check-circle'
+                                    text: 'check data'
+                                    color: 0, 0, 0
+                                    font_size: '20sp'
+                                    size_hint: 0.30, None
+                                    height: '50dp'
+                                    background_normal: ''
+                                    background_color: 131/255, 173/255, 160/255
+                                    on_release:
+                                        app.data_input_check()
+                            BoxLayout:
+                                orientation: 'horizontal'
+                                id: data_input_check
+                                spacing: '20dp'
+                                padding: [0, 0, 0, 300]
+                            BoxLayout:
+                                orientation: 'horizontal'
+                                id: data_preview
+

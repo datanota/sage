@@ -1,0 +1,58 @@
+
+# :kivy 2.0.0
+
+##########################################################
+########################################################## Patterns - Categorical vs. Categorical
+##########################################################
+
+<CatCat>:
+    name: 'catcat'
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: '0dp'
+        MDTopAppBar:
+            md_bg_color: app.theme_cls.primary_dark
+            specific_text_color: app.theme_cls.primary_light
+            elevation: 1
+            padding: '15dp'
+            left_action_items:
+                [
+                ["home", lambda x: app.callback_top_nav('home'), 'home'],
+                ["numeric-1-box", lambda x: app.callback_top_nav('numnum'), 'num_num'],
+                ["numeric-2-box", lambda x: app.callback_top_nav('numcat'), 'num_cat'],
+                ["numeric-3-box", lambda x: app.callback_top_nav('catcat'), 'cat_cat'],
+                ["numeric-4-box", lambda x: app.callback_top_nav('com_met'), 'common']
+                ]
+            right_action_items:
+                [
+                ["copyright", lambda x: app.sage_ss(), '']
+                ]
+        BoxLayout:
+            orientation: 'horizontal'
+            spacing: '0dp'
+            padding: '0dp'
+            TabbedPanel:
+                tab_width: (self.parent.width - 10) / 4
+                do_default_tab: False
+                tab_pos: 'bottom_mid'
+                background_image: ''
+                background_color: 212/255, 213/255, 212/255
+                TabbedPanelItem:
+                    text: 'stacked_barplot'
+                    color: 215/255, 163/255, 9/255
+                    background_down: ''
+                    Image:
+                        source: './assets/cat_vs_cat.png'
+                        allow_stretch: True
+                TabbedPanelItem:
+                    text: 'association'
+                    color: 215/255, 163/255, 9/255
+                    background_down: ''
+                TabbedPanelItem:
+                    text: 'odds'
+                    color: 215/255, 163/255, 9/255
+                    background_down: ''
+                TabbedPanelItem:
+                    text: 'statistical tests'
+                    color: 215/255, 163/255, 9/255
+                    background_down: ''

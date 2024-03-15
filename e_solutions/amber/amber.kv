@@ -1,0 +1,342 @@
+
+# :kivy 2.0.0
+
+<AmberContent>:
+
+    MDNavigationLayout:
+
+        ScreenManager:
+            id: screen_manager
+            canvas:
+                Color:
+                    rgb: 222/255, 222/255, 222/255
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+            Screen:
+                name: 'home'
+                BoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        md_bg_color: app.theme_cls.primary_dark
+                        specific_text_color: app.theme_cls.primary_light
+                        elevation: 1
+                        padding: '15dp'
+                        MDRoundFlatIconButton:
+                            name: 'data_home_b'
+                            icon: 'copyright'
+                            text: '2024 Datanota'
+                            font_size: '14sp'
+                            pos_hint: {'right': 1, 'top': 1}
+                            on_release:
+                                app.dn_ss()
+                    GridLayout:
+                        cols: 2
+                        spacing: '0dp'
+                        padding: '40dp'
+                        Image:
+                            source: './assets/amber_applogo.png'
+                            allow_stretch: True
+                        GridLayout:
+                            rows: 4
+                            spacing: '30dp'
+                            padding: '20dp'
+                            MDFillRoundFlatIconButton:
+                                name: 'home_buy_b'
+                                icon: 'expand-all'
+                                text: 'buy             '
+                                font_size: '20sp'
+                                md_bg_color: 175/255, 166/255, 135/255
+                                size_hint_x: 0.6
+                                on_release:
+                                    screen_manager.current = 'dm_buy'
+                            MDFillRoundFlatIconButton:
+                                name: 'home_sell_b'
+                                icon: 'cash-multiple'
+                                text: 'sell             '
+                                font_size: '20sp'
+                                md_bg_color: 175/255, 166/255, 135/255
+                                size_hint_x: 0.6
+                                on_release:
+                                    screen_manager.current = 'dm_sell'
+                            MDFillRoundFlatIconButton:
+                                name: 'home_db_b'
+                                icon: 'database'
+                                text: 'db schema'
+                                font_size: '20sp'
+                                md_bg_color: 175/255, 166/255, 135/255
+                                size_hint_x: 0.6
+                                on_release:
+                                    screen_manager.current = 'dm_db'
+                            MDFillRoundFlatIconButton:
+                                name: 'demo_home_b'
+                                icon: 'play-circle'
+                                text: 'demo          '
+                                font_size: '20sp'
+                                md_bg_color: 175/255, 166/255, 135/255
+                                size_hint_x: 0.6
+                                on_release:
+                                    app.dn_demo()
+
+##########################################################
+########################################################## buy (decision helper) screen
+##########################################################
+
+            Screen:
+                name: 'dm_buy'
+                BoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        spacing: '10dp'
+                        md_bg_color: app.theme_cls.primary_dark
+                        specific_text_color: app.theme_cls.primary_light
+                        elevation: 1
+                        left_action_items: [['menu', lambda x: nav_drawer.set_state('toggle')]]
+                        right_action_items:
+                            [
+                            ["copyright", lambda x: app.tip_dialog('User Guide:',
+                            '''
+                            1. enter investment dollar amount
+                            2. if no amount is provided, default value is $1000
+                            3. press recommendation button
+                            4. best recommended stocks are sorted top to bottom
+                            '''), ''
+                            ]
+                            ]
+                    BoxLayout:
+                        orientation: 'vertical'
+                        canvas:
+                            Color:
+                                rgb: 54/255, 65/255, 79/255
+                            Rectangle:
+                                pos: self.pos
+                                size: self.size
+                        BoxLayout:
+                            id: dm_buy_rec_tab
+                            orientation: 'horizontal'
+                            size_hint: 1, 0.1
+                            spacing: '30dp'
+                            padding: 150,10,150,10
+                            MDTextFieldRect:
+                                id: dm_buy_invest
+                                multiline: False
+                                cursor_color: 196/255, 204/255, 217/255
+                                hint_text: 'dollar investing (default value is $1000)'
+                                on_text: self.foreground_color = 196/255, 204/255, 217/255
+                                color: 196/255, 204/255, 217/255
+                                font_size: '18sp'
+                                background_normal: ''
+                                background_color: 85/255, 96/255, 113/255
+                            MDFillRoundFlatIconButton:
+                                id: dm_invest_b
+                                icon: 'text-box'
+                                text: 'show investment recommendations'
+                                font_size: '15sp'
+                                md_bg_color: 169/255, 199/255, 137/255
+                                on_release:
+                                    app.show_investment_recommendations()
+                        BoxLayout:
+                            id: dm_buy_rec_results
+                            orientation: 'vertical'
+
+##########################################################
+########################################################## decision maker screen -- sell
+##########################################################
+
+            Screen:
+                name: 'dm_sell'
+                BoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        spacing: '10dp'
+                        md_bg_color: app.theme_cls.primary_dark
+                        specific_text_color: app.theme_cls.primary_light
+                        elevation: 1
+                        left_action_items: [['menu', lambda x: nav_drawer.set_state('toggle')]]
+                        right_action_items:
+                            [
+                            ["copyright", lambda x: app.tip_dialog('User Guide:',
+                            '''
+                            1. press recommendation button
+                            2. best recommended stocks are sorted top to bottom
+                            3. the default value for percent_change is zero for one time transactions
+                            '''), ''
+                            ]
+                            ]
+                    BoxLayout:
+                        orientation: 'vertical'
+                        canvas:
+                            Color:
+                                rgb: 54/255, 65/255, 79/255
+                            Rectangle:
+                                pos: self.pos
+                                size: self.size
+                        BoxLayout:
+                            id: dm_sell_tab_widgets
+                            orientation: 'vertical'
+                            size_hint: 1, 0.1
+                            spacing: '30dp'
+                            padding: 150,10,150,10
+                            MDFillRoundFlatIconButton:
+                                id: dm_cash_b
+                                icon: 'list-status'
+                                text: 'show cash recommendations'
+                                font_size: '15sp'
+                                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                                md_bg_color: 204/255, 135/255, 135/255
+                                on_release:
+                                    app.show_cash_recommendations()
+                        BoxLayout:
+                            id: dm_cash_results
+                            orientation: 'vertical'
+
+##########################################################
+########################################################## database screen
+##########################################################
+
+            Screen:
+                name: 'dm_db'
+                BoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        spacing: '10dp'
+                        md_bg_color: app.theme_cls.primary_dark
+                        specific_text_color: app.theme_cls.primary_light
+                        elevation: 1
+                        left_action_items: [['menu', lambda x: nav_drawer.set_state('toggle')]]
+                        right_action_items:
+                            [["copyright"]]
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        canvas:
+                            Color:
+                                rgb: 54/255, 65/255, 79/255
+                            Rectangle:
+                                pos: self.pos
+                                size: self.size
+                        TabbedPanel:
+                            tab_width: self.parent.width/2
+                            do_default_tab: False
+                            tab_pos: 'bottom_mid'
+                            background_color: (1,1,1,0)
+                            TabbedPanelItem:
+                                text: 'database schema'
+                                Image:
+                                    source: './assets/amber_db.png'
+                                    allow_stretch: True
+                            TabbedPanelItem:
+                                text: 'Stock Summary'
+                                BoxLayout:
+                                    orientation: 'vertical'
+                                    BoxLayout:
+                                        id: dm_stock_sum_tab
+                                        orientation: 'horizontal'
+                                        size_hint: 1, 0.1
+                                        spacing: '30dp'
+                                        padding: 150,0,150,10
+                                        MDTextFieldRect:
+                                            id: dm_tickers
+                                            multiline: False
+                                            cursor_color: 196/255, 204/255, 217/255
+                                            hint_text: 'stock ticker (separate by comma)'
+                                            on_text: self.foreground_color = 196/255, 204/255, 217/255
+                                            color: 196/255, 204/255, 217/255
+                                            font_size: '18sp'
+                                            background_normal: ''
+                                            background_color: 85/255, 96/255, 113/255
+                                        MDFillRoundFlatIconButton:
+                                            id: dm_summary_b
+                                            icon: 'text-box'
+                                            text: 'show summary'
+                                            font_size: '15sp'
+                                            md_bg_color: 169/255, 199/255, 137/255
+                                            on_release:
+                                                app.show_stock_summary()
+                                    BoxLayout:
+                                        id: dm_sum_results
+                                        orientation: 'vertical'
+
+##########################################################
+########################################################## navigation drawer
+##########################################################
+
+        MDNavigationDrawer:
+            id: nav_drawer
+            canvas:
+                Color:
+                    rgb: 222/255, 222/255, 222/255
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '20dp'
+                padding: 0, 70, 0, 0
+                Image:
+                    source: './assets/amber_applogo.png'
+                    size_hint: 0.8, 0.7
+                    allow_stretch: True
+                    pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                ScrollView:
+                    MDList:
+                        OneLineIconListItem:
+                            text: 'home'
+                            on_release:
+                                screen_manager.current = 'home'
+                                nav_drawer.set_state('close')
+                            theme_text_color: 'Custom'
+                            text_color: 0, 0, 0
+                            IconLeftWidget:
+                                icon: 'home'
+                                theme_text_color: 'Custom'
+                                text_color: 175/255, 166/255, 135/255
+                        OneLineIconListItem:
+                            text: 'buy'
+                            on_release:
+                                screen_manager.current = 'dm_buy'
+                                nav_drawer.set_state('close')
+                            theme_text_color: 'Custom'
+                            text_color: 0, 0, 0
+                            IconLeftWidget:
+                                icon: 'expand-all'
+                                theme_text_color: 'Custom'
+                                text_color: 175/255, 166/255, 135/255
+                        OneLineIconListItem:
+                            text: 'sell'
+                            on_release:
+                                screen_manager.current = 'dm_sell'
+                                nav_drawer.set_state('close')
+                            theme_text_color: 'Custom'
+                            text_color: 0, 0, 0
+                            IconLeftWidget:
+                                icon: 'cash-multiple'
+                                theme_text_color: 'Custom'
+                                text_color: 175/255, 166/255, 135/255
+                        OneLineIconListItem:
+                            text: 'db schema'
+                            on_release:
+                                screen_manager.current = 'dm_db'
+                                nav_drawer.set_state('close')
+                            theme_text_color: 'Custom'
+                            text_color: 0, 0, 0
+                            IconLeftWidget:
+                                icon: 'database'
+                                theme_text_color: 'Custom'
+                                text_color: 175/255, 166/255, 135/255
+                        OneLineIconListItem:
+                            text: 'demo'
+                            on_release:
+                                app.dn_demo('https://www.datanota.com/post/prototype-amber')
+                                nav_drawer.set_state('close')
+                            theme_text_color: 'Custom'
+                            text_color: 0, 0, 0
+                            IconLeftWidget:
+                                icon: 'play-circle'
+                                theme_text_color: 'Custom'
+                                text_color: 175/255, 166/255, 135/255
+

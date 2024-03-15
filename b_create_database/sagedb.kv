@@ -1,0 +1,135 @@
+
+# :kivy 2.0.0
+
+<SageDBContent>:
+
+    ScreenManager:
+        id: screen_manager
+        canvas:
+            Color:
+                rgb: 212/255, 213/255, 212/255
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+        Screen:
+            name: 'home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    MDRoundFlatIconButton:
+                        name: 'data_home_b'
+                        icon: 'copyright'
+                        text: '2024 Datanota'
+                        font_size: '14sp'
+                        pos_hint: {'right': 1, 'top': 1}
+                        # pos_hint: {'center_x':.9}
+                        on_release:
+                            app.sage_ss()
+                BoxLayout:
+                    orientation: 'vertical'
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    GridLayout:
+                        cols: 2
+                        padding: '30dp'
+                        BoxLayout:
+                            orientation: 'vertical'
+                            padding: 0, 0, 0, 50
+                            Image:
+                                source: '../utilities/assets/sage_applogo.png'
+                                allow_stretch: True
+                        GridLayout:
+                            rows: 6
+                            spacing: '15dp'
+                            padding: [30, 300, 20, 250]
+                            MDFillRoundFlatIconButton:
+                                name: 'l3_b'
+                                icon: 'database'
+                                text: 'create database '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    screen_manager.current = 's3'
+                            MDFillRoundFlatIconButton:
+                                name: 'demo_home_b'
+                                icon: 'play-circle'
+                                text: 'product demo'
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 1, 1, 1
+                                size_hint: 1, None
+                                on_release:
+                                    app.dn_sage_demo()
+
+##########################################################
+########################################################## create a database
+##########################################################
+
+        Screen:
+            name: 's3'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ["home", lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_ss(), '']
+                        ]
+                BoxLayout:
+                    orientation: 'horizontal'
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    GridLayout:
+                        rows: 2
+                        BoxLayout:
+                            orientation: 'vertical'
+                            Image:
+                                source: '../utilities/assets/db_schema_s.png'
+                                allow_stretch: True
+                        BoxLayout:
+                            orientation: 'vertical'
+                            id: db_outcome
+                            spacing: '20dp'
+                            padding: [100, 0, 100, 150]
+                            size_hint: 1, 0.3
+                            Button:
+                                icon: 'check-circle'
+                                text: 'create database'
+                                color: 0, 0, 0
+                                font_size: '20sp'
+                                # size_hint: 1, 1
+                                # height: '30dp'
+                                background_normal: ''
+                                background_color: 131/255, 173/255, 160/255
+                                on_release:
+                                    app.create_database()
+
