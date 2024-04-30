@@ -1,0 +1,777 @@
+customer_id,full_nm,age,location,customer_total_purchase,purchased_base_profit_amount_01,international_customer,marital_status,returning_customer,purchased_via_amazon
+760adda4-b721-468b-b5ce-c0054d59b7f3,Allison Woods,76,"San Jose, USA",4606.0,0,0,0,0,1
+4407937a-ded0-492b-9638-448a443f4eb2,Connor Thomas,82,"LA, USA",12740.0,0,0,0,0,0
+d148939a-f4e3-4894-8f4c-77df7737eb67,Ashley Wilson,36,"LA, USA",83850.3,1,0,0,0,0
+8059f195-d1cc-460c-aa81-8f9b6b8594cd,Jacob Harris,74,"San Jose, USA",51557.0,1,0,0,0,1
+2eebd157-b775-45b2-a8c9-f026a732f437,James Black,90,"San Jose, USA",22458.7,0,0,0,0,1
+eceed80f-249b-4917-bee9-ca036127d253,David Herrera,68,"San Jose, USA",1323.0,0,0,0,0,1
+94031015-9194-4e2f-8cac-b968bc3a6dd3,Amber Smith,53,"San Jose, USA",4018.0,0,0,0,0,1
+8b62b2aa-0973-42f5-8b97-ddf867b5a01f,Todd Jackson,44,"Madrid, Spain",23742.0,0,1,1,0,0
+c3a45d87-3f1a-4118-a59d-a3847ac58a01,Scott Richardson,38,"Paris, France",4459.0,0,1,1,1,0
+f03311ab-e210-4d89-b811-e3f53dad4769,Beth Day,73,"Paris, France",16109.0,0,1,1,1,0
+844c1577-5d46-4e59-99b3-6c8260e36a83,Malik Moore,80,"San Jose, USA",7864.5,0,0,0,0,1
+69e92c88-812b-4d49-a08e-e123a4fa80ac,Kristine Rodriguez,68,"Milan, Italy",15165.5,0,1,0,0,0
+f8e842d4-8d6e-4044-85c2-dd64236148e3,Nicole Mercado,38,"Milan, Italy",13181.0,0,1,0,0,0
+c0cf76dc-201a-415f-a883-7dac073ca5cf,Cynthia Mckinney,78,"San Jose, USA",23495.5,0,0,0,0,1
+406c4c33-738f-463d-ba66-d9be657e4dd4,Rachel Johnson,20,"LA, USA",35208.9,1,0,0,0,0
+324ba5c1-ee4c-49a4-8c47-699334bec6de,Anthony Walker,53,"LA, USA",34889.4,0,0,0,0,0
+f049e71d-0285-45d9-ae86-f7219188721d,Anne Wilson,75,"Milan, Italy",46455.3,1,1,0,0,0
+cdc1c09b-68fa-48c7-8bc1-feb133e754e4,Matthew Hamilton Jr.,21,"LA, USA",26401.3,0,0,0,0,0
+24f0943c-b6f1-46f9-8ce8-fb9226b36c9f,Robert Hoffman,51,"San Jose, USA",40065.3,1,0,0,0,1
+c27529b1-6a6c-4edb-9b56-ad33c76fd6cb,Catherine Campbell,48,"San Jose, USA",3615.6,0,0,0,0,1
+9b72b9a6-2ca0-441d-adeb-cf37cab3d654,Brian Ferguson,32,"San Jose, USA",131936.4,1,0,0,0,1
+8d40a8ba-8682-419b-87fd-60fc22145420,Robin Parker,38,"Madrid, Spain",60757.8,1,1,1,0,0
+07727f24-2b44-4486-abbc-95a0c41adbc8,Jeffrey Hayes,47,"San Jose, USA",54250.2,1,0,0,0,1
+cf3c2a85-a980-4810-9d05-02773264aac9,Zachary Lucero,50,"Paris, France",65631.0,1,1,1,1,0
+dda99d59-6fcd-4a92-9940-384fb02e87ef,Jackson Smith,63,"San Jose, USA",65945.4,1,0,0,0,1
+f32e64a5-97fa-4747-9972-2968bbdb4f1f,David Brown,36,"Paris, France",54722.8,1,1,1,1,0
+f21b86c1-9f54-4469-9628-b6d0a9cb8dd5,Julie Cherry,61,"San Jose, USA",100855.2,1,0,0,0,1
+52962b49-5190-440b-9378-e576b0145761,Amanda Wright,20,"San Jose, USA",5266.2,0,0,0,0,1
+1f7cd380-cd81-443d-978a-10b0f670b6ca,Michael Wolfe,25,"Madrid, Spain",133398.7,1,1,1,0,0
+48c30ec0-0e40-4b8a-919c-44a03d9fda2d,Kevin Marshall,29,"Paris, France",84528.6,1,1,1,1,0
+cf5e7d6f-b240-4594-aa81-387fdb0b22bc,Michael Davis,42,"San Jose, USA",16741.8,0,0,0,0,1
+98ae8f15-387a-4491-9860-b75df23619d4,Debra Lyons,59,"LA, USA",7231.2,0,0,0,0,0
+239c8f9a-efa0-4b9a-92b5-adced42da443,Antonio Miller,74,"Madrid, Spain",49282.2,1,1,1,0,0
+86acc1a7-d07f-41ac-8df7-3b06b9e34772,Dawn Buckley,74,"Milan, Italy",9798.0,0,1,0,0,0
+653a27bb-5263-4dcb-869d-e1c52c2028d2,Jerry Rodriguez,62,"Madrid, Spain",47656.8,1,1,1,0,0
+3db60505-f947-48f6-8f6a-692d06bdd1c8,Catherine Woods,38,"San Jose, USA",41492.0,1,0,0,0,1
+fc845c5f-c89a-4b22-bc55-8c48ba94ac6b,Joseph Smith,81,"Paris, France",344.5,0,1,1,1,0
+0ceab38e-091f-4065-aa34-b3f534bd5b0d,Leslie Wells,42,"San Jose, USA",898.3,0,0,0,0,1
+5c53399d-1124-4fa3-92cd-595e9e8a8793,Kaitlyn Gibbs,15,"Madrid, Spain",1164.8,0,1,1,0,0
+5abf7733-69ab-4a5a-9777-b30b2b018a8b,Mercedes Wyatt,36,"Milan, Italy",2440.6,0,1,0,0,0
+289341f3-7cbe-489e-8942-e2c74f5d30f9,Mr. Joseph Gray,53,"Paris, France",37434.6,1,1,1,1,0
+90fd5be5-025d-4644-acac-d8f0b9a9ac7a,Edward Lewis,43,"LA, USA",787.0,0,0,0,0,0
+b9a54289-4118-4a22-954c-d93188a80baf,Edward Baker,44,"San Jose, USA",5472.3,0,0,0,0,1
+e122c49c-3120-4c90-8130-50bc91f4c11f,John Gonzalez,67,"Paris, France",630.5,0,1,1,1,0
+9f3b853d-2b53-4fb3-8163-a04526b7f3c6,Jeffrey Winters,73,"Paris, France",29182.100000000002,0,1,1,1,0
+7ccf8541-e844-43a3-85ef-351f711eeb99,Teresa Richardson,89,"Madrid, Spain",1004.9,0,1,1,0,0
+ed6f4124-8ee9-465d-8fea-ee8cf67555d0,Dale Gregory,43,"San Jose, USA",668.2,0,0,0,0,1
+a95123d5-8c6f-45ff-b7f1-1563c5eb35d7,Brian Jones,65,"Madrid, Spain",405.6,0,1,1,0,0
+d5372676-ece8-4cdd-bd27-600afabc7c6e,Rick Perry,88,"Madrid, Spain",1046.5,0,1,1,0,0
+100a6002-e271-4a95-917c-ab86bb0e8575,Melissa Williamson,87,"Milan, Italy",526.5,0,1,0,0,0
+9a66141d-3c35-4838-a9d0-3eed50a6e650,Kelsey Malone,57,"Paris, France",14097.3,0,1,1,1,0
+799bcadc-aaab-4792-9550-a75c67364a0e,Carlos Reeves,51,"Paris, France",26669.0,0,1,1,1,0
+3529d435-0c4c-49c4-b53f-412592717017,Dr. Michael Monroe,83,"Madrid, Spain",4865.7,0,1,1,0,0
+e47175d3-6862-4752-ad23-831df155432b,Sherri Maynard,87,"Paris, France",308.7,0,1,1,1,0
+84129304-3c23-4683-8eec-f62d65623a71,Angel Lopez,17,"LA, USA",24701.1,0,0,0,0,0
+4f977406-19bf-43c9-89cc-6a8007e55882,Dustin Rogers,19,"LA, USA",10995.6,0,0,0,0,0
+4b24d5fb-92e1-41da-b5a8-cf1a3ec5d881,Melissa Snyder,66,"Paris, France",7129.5,0,1,1,1,0
+bc8ed185-3272-48e4-8a09-d2b3aebaa97b,Steven Manning,25,"LA, USA",116435.6,1,0,0,0,0
+1e31508e-2c28-43fe-acda-dacfdde0ecd6,Matthew Smith,18,"LA, USA",47236.9,1,0,0,0,0
+442d79e1-3780-4f83-bb91-b056c30f9eeb,Kara Howe,67,"LA, USA",33605.0,0,0,0,0,0
+6a3d7d7a-3653-4fef-964b-61880e0cfbd8,Beth Dickerson,36,"San Jose, USA",50646.7,1,0,0,0,1
+72288eda-9af6-41c7-9931-b878ceca209e,Larry Williams,59,"San Jose, USA",1706.1,0,0,0,0,1
+53b1880c-4331-46f4-b059-5a370111e001,Mark Long,73,"Madrid, Spain",41049.8,1,1,1,0,0
+87758d22-c511-403e-8426-d369b3f628d1,Melissa Patel,22,"LA, USA",206.8,0,0,0,0,0
+f94db70f-9ed0-4a5d-bf7f-e3b7a43c4976,Cameron Knight,73,"Milan, Italy",26479.8,0,1,0,0,0
+09b43892-6e6e-4342-a3fb-0f07828beb55,Chris Rodriguez,70,"Madrid, Spain",18612.0,0,1,1,0,0
+537e9f19-9c47-483f-a965-dda7bb17fc09,Edward Cross,90,"LA, USA",29158.8,0,0,0,0,0
+0db84d96-ddd0-42d4-9a1a-790eaa9b405c,Jesus Thomas,87,"Paris, France",9823.0,0,1,1,1,0
+7e8d2567-183c-4976-a05f-84820f3a6fed,Kelly Hernandez,78,"Madrid, Spain",51764.1,1,1,1,0,0
+ef895376-b0b8-4142-b8e0-93357802eb30,Paul French,33,"Madrid, Spain",28124.8,0,1,1,0,0
+e064c985-d39f-4369-ba02-6c768712ff7f,George Lewis,60,"Madrid, Spain",93901.5,1,1,1,0,0
+b15546e5-67a8-4e1c-a4a4-59618dac7faa,Dwayne Bailey,27,"Madrid, Spain",40761.9,1,1,1,0,0
+b968d2b8-018b-45e2-b804-7318dbc76529,Jose Johnson,82,"Madrid, Spain",7849.8,0,1,1,0,0
+30735955-a098-4979-b1b0-5771158c6927,Susan Ross,64,"Paris, France",71849.7,1,1,1,1,0
+a28eca8e-43c9-442c-8ddb-45be06189c3a,Kathleen Robinson,68,"Madrid, Spain",65508.7,1,1,1,0,0
+64837ae6-20cc-4f08-b463-0217c6d2eb08,Pamela Patel MD,90,"Milan, Italy",74012.4,1,1,0,0,0
+e2e5eb22-79d2-42be-bbdb-df1bd927425d,John Gardner,26,"San Jose, USA",30918.6,0,0,0,0,1
+a5f5e83c-c117-4147-bc62-e83c60cadde4,Megan Richards,29,"LA, USA",5126.4,0,0,0,0,0
+41830894-de1e-4023-bfee-52037022b1fb,Kristopher Haney,46,"LA, USA",12976.2,0,0,0,0,0
+e6b9626a-783b-4397-b09e-a94621287ef3,Gregg Diaz,72,"San Jose, USA",4262.4,0,0,0,0,1
+1f31bf48-9755-42cd-a95f-4353d796930c,John Gutierrez,21,"LA, USA",21467.4,0,0,0,0,0
+b779c08e-8434-4b48-884c-ee7ab72caabc,Jordan Nash,68,"LA, USA",3352.2,0,0,0,0,0
+2fa92ba5-a15a-4860-ab25-5c436724b417,Tricia Whitaker,22,"LA, USA",19717.699999999997,0,0,0,0,0
+dd607d9d-3512-4925-8223-1ead4df359a8,Tracy Maddox,48,"San Jose, USA",41280.2,1,0,0,0,1
+b454bac6-d8f6-4e3a-8ebf-8a4fa4e40214,Amanda Robertson,60,"San Jose, USA",30438.6,0,0,0,0,1
+4c9f7756-bfcd-4496-b120-ce735926dde2,Daniel Gonzalez,17,"LA, USA",15562.2,0,0,0,0,0
+a7fbbb0a-6103-4905-9cb7-e6852d1c5a37,Heather Fleming,76,"San Jose, USA",31861.4,0,0,0,0,1
+314bbaa9-adcb-4098-8e5a-bc680a844692,Rodney Strickland,71,"San Jose, USA",8857.8,0,0,0,0,1
+47e3fbee-b3f7-42f7-acb8-24787d88d7ac,Scott Miller,53,"LA, USA",20512.8,0,0,0,0,0
+ecb357f3-faed-48fc-b3a7-2998d51d4291,Eric Olson,45,"LA, USA",11566.2,0,0,0,0,0
+28fd85d0-3d5b-4bd5-91db-2f8eea5334c6,Carrie Miller,39,"Paris, France",14008.2,0,1,1,1,0
+178404de-82d3-4038-91c7-d187bea4958d,Amanda Bishop,74,"LA, USA",35181.5,1,0,0,0,0
+0882c147-7d98-4ecf-aa98-c08c3de294cb,Linda Schmidt,82,"LA, USA",34366.2,0,0,0,0,0
+5f4f9bde-8031-45e3-b5f4-f03bcd78bf50,Sabrina Walsh,88,"LA, USA",130957.7,1,0,0,0,0
+14b7033f-5177-4988-b0c7-f1fced4c219d,Victoria Walker,85,"San Jose, USA",1638.5,0,0,0,0,1
+44ec170f-eb64-4de8-9ac0-de30887fc3de,Rachel Chandler,46,"Paris, France",61972.4,1,1,1,1,0
+4a512290-f090-4c30-b042-4a7414704e4b,Jessica Mclaughlin,88,"Paris, France",9442.0,0,1,1,1,0
+ba9cf4c5-cce2-462c-89c8-46656185c354,John Cooley,23,"Madrid, Spain",12750.4,0,1,1,0,0
+c2fc533e-70af-45d4-9f3b-495bf74c9fdc,Lisa Davis,30,"Madrid, Spain",13427.0,0,1,1,0,0
+6ba61eef-0f3e-4ec6-848a-28733ec1a2ee,Howard Blair,73,"Milan, Italy",54402.5,1,1,0,0,0
+431fc206-0742-45b4-bf0b-f6af212935b3,Victoria Diaz,67,"Madrid, Spain",3886.0,0,1,1,0,0
+5dcf21b8-fce4-4972-995d-92ada0f85594,Christopher Cruz,60,"Paris, France",5205.5,0,1,1,1,0
+c1da5833-79ff-4531-bcad-f3ee570f594d,Jacob Day,21,"San Jose, USA",7061.5,0,0,0,0,1
+2a9f7c85-7d21-44a2-9882-036b623c8c5a,Emily Cooley,84,"San Jose, USA",13847.5,0,0,0,0,1
+8e529b8d-1ca5-4b8c-bbb4-da0b45a20f1e,Patrick Morrison,48,"Paris, France",18823.5,0,1,1,1,0
+25b2b161-5f04-494f-9b5b-90ded195c2d6,Patricia Clements,80,"Milan, Italy",6721.0,0,1,0,0,0
+2bffffea-c6b0-403c-be4f-d1ac19889cdf,Jennifer Rosales,49,"San Jose, USA",26162.8,0,0,0,0,1
+a53bee3b-1098-4044-90a8-d18b3733c599,Jeffrey King,87,"Paris, France",31919.5,0,1,1,1,0
+ef168c61-4c2b-4433-9c40-629c3501d51b,Tyler Armstrong,21,"LA, USA",20181.8,0,0,0,0,0
+2a0ceaa5-58d9-4433-8d45-746b963bb010,Selena Owen,52,"Milan, Italy",24599.3,0,1,0,0,0
+79a4c400-c501-4ad3-a58a-78b2fabef052,Wendy Hernandez,67,"Paris, France",9141.5,0,1,1,1,0
+44e3cd21-8533-4245-b01a-998b563e2263,Mary Kaufman,67,"Madrid, Spain",23312.0,0,1,1,0,0
+76e5f5d6-5877-4e54-be15-466be32d1a76,Lisa Navarro,20,"San Jose, USA",352.3,0,0,0,0,1
+4c0ac603-efbb-4f16-b894-e5d676015587,Deanna Hernandez,75,"San Jose, USA",1194.9,0,0,0,0,1
+361e20ae-7107-4542-8998-fac7a9b97565,Stephanie Brady,40,"Paris, France",35408.6,1,1,1,1,0
+7aa095bc-e3e3-46fb-b213-5be363214758,Erin Wilson,81,"Milan, Italy",4576.9,0,1,0,0,0
+9d54acc6-23e9-40e6-9a6e-e662e030d1c7,Robert Fernandez,76,"LA, USA",208.0,0,0,0,0,0
+bb8bad34-adc1-4782-9b8e-f0935516a9ac,Ronald Brown,33,"LA, USA",1124.5,0,0,0,0,0
+59bc1241-39a3-444a-b60e-cbe1f60d7990,Steven Collier,84,"LA, USA",721.5,0,0,0,0,0
+85cc17cc-e3e7-4f94-9586-5fdf097fc1cb,Jerry Howard,79,"Milan, Italy",382.2,0,1,0,0,0
+0851f592-0451-478a-ba3c-f88d2fdb3fbd,Carlos Bell,71,"Madrid, Spain",717.6,0,1,1,0,0
+024ab09e-a677-4154-94d2-d826ef839395,Natalie Martin,18,"Paris, France",575.9,0,1,1,1,0
+e41132cf-db27-467b-82b4-ce5d7dea1dae,Kimberly Harvey,79,"LA, USA",22704.0,0,0,0,0,0
+56d19ad1-786b-4eb9-92e3-abf99d9a610c,John Garza,54,"Paris, France",28254.399999999998,0,1,1,1,0
+5378976e-9b8f-43f1-be7d-6fcd43e5979e,Stephanie Cox,85,"Madrid, Spain",8532.3,0,1,1,0,0
+65a37a94-1717-404c-b541-8166bd738c30,Roy Smith,17,"San Jose, USA",11591.5,0,0,0,0,1
+d0e05c3a-d338-498d-96d3-b48b9ce80424,Bill Rodriguez,50,"San Jose, USA",5178.0,0,0,0,0,1
+b98625af-4bc6-4910-8641-43cdd8a9bcbb,Regina Smith,23,"San Jose, USA",22633.3,0,0,0,0,1
+7cfe30da-ccc2-4c2a-8590-8cff98a6bc71,Destiny Gonzalez,21,"LA, USA",26045.4,0,0,0,0,0
+eca47743-a3cb-49a0-ae43-ead91d79b8ad,Jennifer Brewer,44,"San Jose, USA",21069.4,0,0,0,0,1
+eb9e6604-4c46-40ed-9f60-fb3b1263241a,Mr. Thomas Gonzales,43,"San Jose, USA",13031.0,0,0,0,0,1
+4380f2a0-ac2d-4b0d-b730-285cd0f18c86,Linda Shaffer,53,"LA, USA",19506.7,0,0,0,0,0
+3a84068f-0404-428e-bdaf-303bd6bd1970,Joshua Dennis,39,"Madrid, Spain",29239.5,0,1,1,0,0
+2f0767ac-8e68-4610-bc3b-4d97bdf2f04a,Leah Kaiser,31,"Paris, France",23870.300000000003,0,1,1,1,0
+c4d1dbbe-a26f-46bb-8df6-6c303ca5588d,Brittany Welch,87,"Madrid, Spain",13062.4,0,1,1,0,0
+7fe6f2ea-ee31-4f2d-b24f-99e814a02143,Michael Baker,48,"LA, USA",7881.4,0,0,0,0,0
+e6d86b1d-4ff4-460c-a35e-7c095bc9f30e,Virginia Gould DDS,20,"San Jose, USA",6625.4,0,0,0,0,1
+ccf260ff-3c89-4548-968e-1b29dd8a6e2c,Stephen Johnson,17,"Madrid, Spain",29704.4,0,1,1,0,0
+e982b652-d6ba-429b-a996-220497576708,Pamela Dudley,73,"Madrid, Spain",16233.8,0,1,1,0,0
+91d00390-621a-4a5d-b751-eb1e73afb582,Katherine Price,81,"Paris, France",27506.4,0,1,1,1,0
+7f8c51d4-2e06-441b-8b23-78755605535b,Sharon Velazquez,39,"Madrid, Spain",21540.4,0,1,1,0,0
+c0dc7145-227e-451a-afa6-8bd5e02bab53,David Zuniga,53,"LA, USA",18065.4,0,0,0,0,0
+1a1eade3-4c2c-4887-9df3-65460375a5a2,Jeffery Henderson MD,66,"Paris, France",1309.0,0,1,1,1,0
+9a27c6ad-e715-4729-82e4-46ccf22cdae1,Jennifer Powell,77,"LA, USA",20608.0,0,0,0,0,0
+7436d223-bff9-49e7-8bff-ddcb16a059fc,Derek Abbott,61,"San Jose, USA",24568.0,0,0,0,0,1
+ac04a476-35d7-4698-bdca-e0dc76efd050,Dr. Michael Wright,89,"LA, USA",19135.0,0,0,0,0,0
+b4cefaca-56c4-4469-b5b3-d9fcf098341b,Mrs. Angela Clark DDS,63,"LA, USA",700.7,0,0,0,0,0
+0b111c54-c0c7-4299-b3ad-6b2f37e8bf79,Jasmine Smith,58,"LA, USA",4470.2,0,0,0,0,0
+103d3be3-b5ad-4648-927d-a996b0170c8f,Christopher Thompson,84,"Paris, France",5005.8,0,1,1,1,0
+8da61ce1-9ec4-4191-a882-72a1a53a1bbc,David Orr,20,"Milan, Italy",16006.2,0,1,0,0,0
+6b9f07e2-70e6-48cc-82f6-5f9dfe2ad7f8,John Lynch,48,"San Jose, USA",10155.8,0,0,0,0,1
+730c825d-428b-4e7d-8489-451ce8c4ae67,Tracy Johnson,39,"LA, USA",4161.2,0,0,0,0,0
+11542c72-01dd-4353-94d1-5f09382c88c5,Kayla Schultz,46,"Paris, France",3749.2,0,1,1,1,0
+ada7f960-181d-4534-9877-debf2efe5633,Paige Moran,60,"Milan, Italy",12852.2,0,1,0,0,0
+a29dbdb4-defe-4f5d-9b6d-91330c9b9f27,Michael Parker,67,"Madrid, Spain",15676.6,0,1,1,0,0
+fbd683c4-d1aa-4807-ba09-260cff77276d,Isaiah Yu,61,"Madrid, Spain",11898.9,0,1,1,0,0
+7b359d80-15ba-49e3-a305-48acbdc32db4,Elizabeth Ramirez,26,"San Jose, USA",11337.3,0,0,0,0,1
+0f1506c7-1e69-4527-bce9-129e85fc8ef8,Courtney Gomez,78,"San Jose, USA",12846.6,0,0,0,0,1
+cd50c9e4-a843-4e24-9e02-06255a98968d,Julie Morrow,83,"Paris, France",68567.1,1,1,1,1,0
+d12f31b3-075b-4e0e-a7f4-6be9bdebc501,Kevin Gomez,77,"Madrid, Spain",2948.4,0,1,1,0,0
+14eccc6b-624a-4c52-b291-c1964f4e2617,Mary Leblanc,47,"Milan, Italy",74039.4,1,1,0,0,0
+d778f97b-e9aa-4db3-8cd0-a9ef49be204b,Danielle Pittman,25,"LA, USA",1158.3,0,0,0,0,0
+17e5d4ad-5cf5-4e67-8b90-e6ef27c65395,Angela Higgins,22,"Paris, France",8143.2,0,1,1,1,0
+76f826eb-4bcb-4e2a-8880-00464bb282bf,Sandra Moran,35,"Madrid, Spain",41962.5,1,1,1,0,0
+2a8d2793-6b63-4040-a179-d5db91bf4ff0,Natalie Olson,37,"Madrid, Spain",25482.6,0,1,1,0,0
+cfedd3b5-eb22-4b0d-a021-5fb7f7a05b0b,Raymond Gonzalez,38,"Paris, France",45173.7,1,1,1,1,0
+8c4c17fa-7cc3-4bd0-8471-0d03259e9369,Walter Pittman,70,"San Jose, USA",24148.8,0,0,0,0,1
+92306bb3-3c83-4e50-ab19-8e84d79c699a,Jo Brown,58,"San Jose, USA",28080.0,0,0,0,0,1
+8a62f133-a84d-4bf8-9aa0-63ac53a66b6e,Michele Frey,86,"LA, USA",20835.1,0,0,0,0,0
+14bd3c5a-73f3-4808-9e33-2fb0dea266ee,Mark Park III,23,"Milan, Italy",96827.1,1,1,0,0,0
+13113c8f-eb14-442c-a4bb-07dab2fcf172,Robert Parker,30,"Madrid, Spain",15580.5,0,1,1,0,0
+afd34ef6-d2e6-4193-a61e-c329335dccff,James Green,77,"San Jose, USA",64680.5,1,0,0,0,1
+563c06e7-fc5d-4cff-b59b-2181ab458818,Daniel Shaw,44,"LA, USA",27250.6,0,0,0,0,0
+2e1e32c4-b1b3-42ea-9900-ec27766b4706,Anthony George,40,"Madrid, Spain",19674.2,0,1,1,0,0
+fe620cfd-5c4f-4828-82ae-aa865dc32a22,Julie Sanchez,37,"LA, USA",17836.5,0,0,0,0,0
+745ce4bc-3f4d-4d1e-bb15-dd4511325e60,Cheryl Beard,28,"San Jose, USA",23183.1,0,0,0,0,1
+597b8473-356c-47e4-8679-6f23429ed082,Joshua Richardson,69,"LA, USA",9776.0,0,0,0,0,0
+3db0bbfd-d70c-4435-949f-403937b831ee,Patricia Trevino,81,"San Jose, USA",57011.0,1,0,0,0,1
+91322520-31ca-4b62-9034-f456494cf8e8,Joel Sims,27,"LA, USA",10998.0,0,0,0,0,0
+6863e09b-7c08-45ed-911a-d9182a5b3fcc,Jamie Schmidt,50,"Milan, Italy",6904.3,0,1,0,0,0
+9f35291c-4503-40bd-b375-6ca9040dfffe,Sarah Jensen,83,"LA, USA",33085.5,0,0,0,0,0
+8a4c7d46-b3f5-424f-96bf-bbaf8b27153d,Ronald Hoover,39,"Paris, France",22647.3,0,1,1,1,0
+ffbb23f7-b2e0-4c4c-9dfa-f6fbbe4f36fd,Jonathan Sandoval,44,"Madrid, Spain",82204.5,1,1,1,0,0
+670bf5b6-2997-4ee9-8132-8723099d3e43,Heather Chen,39,"San Jose, USA",32537.6,0,0,0,0,1
+e42f02d5-d3da-4f44-9924-881e83037c50,Patricia Fox,48,"Madrid, Spain",47978.0,1,1,1,0,0
+8bebd313-9fa5-421e-9772-0636c391f526,Kathleen Romero,20,"Milan, Italy",82836.0,1,1,0,0,0
+cfffd035-d318-4c02-b0a3-10328ebc50fe,Luis Sanders,36,"Paris, France",4830.0,0,1,1,1,0
+8bdc8766-520c-426f-b5ed-0710ae11a6eb,Daniel Johnson,30,"Madrid, Spain",79373.0,1,1,1,0,0
+5da90817-19e0-4b3d-b211-8acc5e74cd40,Keith Blake,89,"Milan, Italy",33477.2,0,1,0,0,0
+a0e29564-f69f-4cea-a33f-3d892827ae0c,Michael Burke,89,"Paris, France",41649.8,1,1,1,1,0
+1ac2723a-6558-41d1-a2a1-92a26ab04fa7,Craig Peters,57,"Milan, Italy",86172.0,1,1,0,0,0
+c9669683-6e67-4b0c-b535-56d42ec3b3e9,Robert Harris,65,"Paris, France",13520.7,0,1,1,1,0
+c1cf251f-7bb4-44b6-bc71-090b2eb1f0b7,Daniel Lee,67,"Paris, France",82899.9,1,1,1,1,0
+bb94f83c-02e4-46c0-ada6-e795ba8cab30,Taylor Holland,42,"Madrid, Spain",8280.4,0,1,1,0,0
+3edf3cdd-30e8-44b4-8b71-5edf64ba50db,James Lynch,24,"LA, USA",254.0,0,0,0,0,0
+8418ed6c-8dfc-4444-b57b-8b3b32d763ef,Timothy Castillo,60,"Madrid, Spain",25247.6,0,1,1,0,0
+c1724f7e-b054-41a4-bd27-3066099667f8,Melissa Ramos,53,"Madrid, Spain",16662.4,0,1,1,0,0
+c0d6f161-c748-4b08-905b-10091cf5ef40,Linda Mann,82,"LA, USA",12242.8,0,0,0,0,0
+bbfd2704-6e98-46b3-905c-ebb7a678ec4b,Spencer Adams,84,"Milan, Italy",104420.2,1,1,0,0,0
+d9f873ff-deb9-4146-8a4a-f7581bf4073b,Aaron Johnson,26,"LA, USA",15494.0,0,0,0,0,0
+a8ffa15e-cac9-44cb-ade8-f66d836d0484,Peter Calderon,42,"San Jose, USA",12903.2,0,0,0,0,1
+7c77027f-c7e1-487b-bfa8-f712673e2239,Brandon Mccormick,39,"Milan, Italy",83170.4,1,1,0,0,0
+56f5955f-56c3-48a5-8d55-05b3205b6ac0,Lisa Mills,81,"Milan, Italy",13004.8,0,1,0,0,0
+f6895107-27cd-491b-a57a-0d6fb2e1d458,Mark Joseph,19,"LA, USA",45262.8,1,0,0,0,0
+fc9b458e-884a-4e12-8288-2a44d758a5f3,Pamela Gutierrez,45,"Milan, Italy",79037.1,1,1,0,0,0
+4b19da4b-92bd-42ff-adae-09e371711221,Alicia Moreno,22,"Paris, France",36481.2,1,1,1,1,0
+9b501ce9-907a-4090-9272-50419b34d421,Megan Mills,41,"Paris, France",24054.600000000002,0,1,1,1,0
+90e9e9a8-83da-41ab-9d1d-81c1f659bff1,Laura Wood,67,"San Jose, USA",45415.2,1,0,0,0,1
+269493d1-2bf1-40f8-b517-39c86e014f4d,Robert Brooks,86,"Milan, Italy",11938.0,0,1,0,0,0
+32bc673a-81a1-46ec-af04-e00426b5ac5e,Deanna Miller,70,"Milan, Italy",75690.8,1,1,0,0,0
+0af70e25-5a36-4db7-b30a-be604c02af15,James Phillips,25,"LA, USA",80012.0,1,0,0,0,0
+87971483-a011-4804-b547-a27ca886eb99,Christopher Williams,41,"Madrid, Spain",40488.0,1,1,1,0,0
+50d5b02f-542f-449c-81fd-47041d6b9808,Kimberly Brown,83,"San Jose, USA",78180.4,1,0,0,0,1
+bf49388c-90ce-44bf-9612-cfb789491eae,Joseph Myers,25,"Madrid, Spain",57743.6,1,1,1,0,0
+272f9bff-f317-47b2-b226-1a382e616ae8,Sara Sharp,17,"Milan, Italy",95339.6,1,1,0,0,0
+d1ec1b58-d0d5-4f12-8d5b-5c286f1afa0f,Ashley Pierce,67,"Paris, France",70564.8,1,1,1,1,0
+6089db4d-4166-4be0-bdfd-7d36213ca136,Christina Thompson,51,"San Jose, USA",46173.6,1,0,0,0,1
+3a505df6-56ec-46ee-b548-7cdc794296b3,Melissa Mcclure,51,"Madrid, Spain",56972.4,1,1,1,0,0
+7a7938de-a309-41cf-8be2-925dc4b2f5fb,Anthony Young,80,"Madrid, Spain",84446.4,1,1,1,0,0
+2e3b6a48-c92f-494e-b087-6b4641e342d5,Jesse Kim,25,"Madrid, Spain",37532.8,1,1,1,0,0
+5bad66ae-2622-43bf-957a-fec4432a0155,Joseph Rose,70,"LA, USA",80204.8,1,0,0,0,0
+773a8df4-e217-4250-ad82-0366685f5afd,Veronica Owens,64,"San Jose, USA",33932.8,0,0,0,0,1
+12498c56-4681-4f83-964d-602f0fe81309,William Tran,30,"Milan, Italy",14845.6,0,1,0,0,0
+29f06899-ba39-4641-9f9e-3762b1d64f06,Kenneth Cooper,47,"LA, USA",112732.3,1,0,0,0,0
+a55f9ac6-2c63-40c9-9459-c1f0ad6e73ed,Kevin Anderson,57,"Madrid, Spain",28475.4,0,1,1,0,0
+ec4f485c-3620-40d3-a918-3d2ba5f42166,Natasha Davis,57,"Milan, Italy",34554.0,0,1,0,0,0
+e20aa97a-2fc7-4b9f-a8b7-e5ee13164517,Elizabeth Lee,19,"Paris, France",29810.5,0,1,1,1,0
+052c7557-80b2-44d0-9c9c-1445fba4482c,Leslie Carroll,70,"LA, USA",12119.8,0,0,0,0,0
+86108633-c10d-4e51-b821-4f1f4d962abd,Dawn Love,31,"Milan, Italy",16299.1,0,1,0,0,0
+9a4c3921-34c3-4417-a425-014960380eec,Ronald Barnes,46,"Paris, France",34391.9,0,1,1,1,0
+bc5a79d1-226f-40f3-aaee-baeef105e984,Margaret Le,68,"San Jose, USA",11647.6,0,0,0,0,1
+4894e876-2303-44d6-978b-5a181dfd3095,Carol Floyd,48,"LA, USA",44622.9,1,0,0,0,0
+9e4ae2ac-0b9f-4e80-bcad-4353c93cbce9,Ryan Allen,66,"San Jose, USA",26600.6,0,0,0,0,1
+b0846571-7f70-4029-9a00-96a058c94c67,Sean Lin,57,"Paris, France",33526.2,0,1,1,1,0
+e3834479-8270-491e-af15-5f284f26e84a,Ashley Clark DVM,40,"Madrid, Spain",49344.9,1,1,1,0,0
+fcfb9084-f5b6-4ff1-9332-a6a125bc7649,Leslie Martin,62,"LA, USA",22823.0,0,0,0,0,0
+8ec73d5d-9dac-4072-b3a8-e3d37da27b57,Heather Leblanc,54,"Paris, France",73899.3,1,1,1,1,0
+63d501e0-6449-4f2e-b1f0-784e3b415e52,Anna Woods,67,"Madrid, Spain",20614.5,0,1,1,0,0
+7dd23dc6-170f-4300-b486-a53162fc685b,Scott Tran,89,"Milan, Italy",13972.5,0,1,0,0,0
+823118f3-8270-4cd3-a9e4-9bf9db2189dc,Amber Romero,86,"Madrid, Spain",25474.5,0,1,1,0,0
+394bf191-5b64-4400-9a33-0377ed50ce3f,Mrs. April Wright DDS,16,"San Jose, USA",2349.0,0,0,0,0,1
+f58f7b9a-c3e0-47f6-b888-c7fc68c7a39f,Kylie Brooks,23,"LA, USA",41716.1,1,0,0,0,0
+e8e429d9-eb4e-41fc-ac65-f1dc25d66583,Jennifer Perry,39,"Milan, Italy",20317.1,0,1,0,0,0
+c099bcde-7b19-4090-8fe7-fd270d7eb6ca,Jessica Odom,39,"Paris, France",9042.0,0,1,1,1,0
+00b89e11-6374-4c43-82fd-9f4d3fb50084,Katelyn Gallegos,64,"Paris, France",74857.5,1,1,1,1,0
+07ff5637-1a1a-4258-8a2c-2d08c19ad210,Kristen Jefferson,55,"Madrid, Spain",39773.1,1,1,1,0,0
+55ddf4d7-d276-4162-8af0-bc2b71d2a6d6,Sean Johnson,56,"San Jose, USA",28338.5,0,0,0,0,1
+55590d0d-6170-4bdd-995c-61671b0a38e1,Kerry George,40,"Madrid, Spain",53615.0,1,1,1,0,0
+37bed1a8-544a-463d-898d-3ebd3d2cdf5e,Craig Holland,81,"Paris, France",15668.8,0,1,1,1,0
+2ac6bf65-8e32-4e9b-9adc-7d9dd79392dc,Kathleen Andersen,59,"Milan, Italy",68856.3,1,1,0,0,0
+8c4da447-73c9-4af3-b068-2fb60e26a837,Danielle Wilson,49,"LA, USA",72575.5,1,0,0,0,0
+72ba6413-2653-499a-9d33-ff0969ddc2d6,Mr. Brett Lindsey,63,"Madrid, Spain",53420.8,1,1,1,0,0
+4725b9e4-8a72-43b1-9a1a-ba5f47c56fa3,Rebecca Lewis,45,"Paris, France",29606.4,0,1,1,1,0
+b3a3de5b-04a0-46eb-aef3-9ea0f22ee1b6,Richard Ramos,87,"Madrid, Spain",25689.6,0,1,1,0,0
+313d4351-ff1c-49f5-90ca-5897d1f6045b,Kristin Cooper,47,"Madrid, Spain",9446.4,0,1,1,0,0
+2ee2e905-244f-43ae-8368-6c80663eec47,Kenneth Harper,48,"Paris, France",45723.6,1,1,1,1,0
+6a6dae26-7a6a-4502-8d84-faf87a7c2141,Catherine Becker,89,"Paris, France",25779.6,0,1,1,1,0
+08b3dec1-b735-4e4e-9ba9-57e27ef29c66,Joseph Armstrong,75,"San Jose, USA",67498.2,1,0,0,0,1
+9a8d6487-bb31-43c1-8501-13b8842a4e25,Roy Nichols,42,"San Jose, USA",61607.7,1,0,0,0,1
+53baaab9-800f-490e-8d0a-00ff64f2e85c,Manuel Clark,62,"Milan, Italy",34257.3,0,1,0,0,0
+61946486-0f97-4128-8f6d-7bb4d362306f,Justin Wilkins,59,"LA, USA",31115.7,0,0,0,0,0
+fa5472cb-5932-4e25-9a8f-4a348e142c3d,Renee Cox,43,"Madrid, Spain",2979.9,0,1,1,0,0
+39b279ff-4a59-45e0-bc65-f29093f68ece,Joseph Jensen,30,"Madrid, Spain",79347.2,1,1,1,0,0
+c6e4cd51-0f42-420a-a9f1-e99570afb7d3,Katelyn Gonzales,72,"Paris, France",59584.0,1,1,1,1,0
+ed77f034-ac5c-4ca5-a489-f3035a9aed1d,Ashley Munoz,83,"Paris, France",21560.0,0,1,1,1,0
+177e6cf0-2312-4147-b1a4-6f4939c5b705,Gregory Ruiz,56,"Madrid, Spain",108538.79999999999,1,1,1,0,0
+39662930-1aa9-4e96-81d4-e8e4d448e91b,Christopher Riddle,66,"Paris, France",104332.2,1,1,1,1,0
+b7041d69-b2f9-4c98-bbfd-f8ecc5d7d1f5,Andrew Garcia PhD,16,"Milan, Italy",41473.3,1,1,0,0,0
+896adc6a-2d0c-4d08-acaf-7565bfed845b,Jeremiah Moore,83,"Madrid, Spain",65172.8,1,1,1,0,0
+0a366e2e-f97f-4120-84bd-67a6451b1c33,Jonathan Owen,64,"Paris, France",20384.0,0,1,1,1,0
+1d42eec3-60e7-4c0d-bb06-3b9fea60d778,Kelli Sharp,19,"Paris, France",54096.0,1,1,1,1,0
+a875d516-7aad-45e3-a467-6089e312577a,Michael Villa,55,"Madrid, Spain",51131.200000000004,1,1,1,0,0
+d1f368ef-1570-49ae-9898-423c94c20d0d,Sara Turner,56,"Paris, France",16254.0,0,1,1,1,0
+587a8bf6-057c-47c5-a477-09a309195a13,William Hines,76,"Madrid, Spain",17955.0,0,1,1,0,0
+664c4e91-89ac-4070-90cc-c1d3363db837,Alan Mcmahon,68,"San Jose, USA",3231.9,0,0,0,0,1
+f725f5ea-ba97-4d7b-b5b8-c8d2882d8114,Maurice Owens,46,"San Jose, USA",13872.6,0,0,0,0,1
+1048c981-f7b9-4d24-b2df-a6a77597634a,Lori Colon,16,"Milan, Italy",17350.2,0,1,0,0,0
+694dde7d-817e-4be7-8a91-68ac901fef88,Catherine Delacruz,63,"Paris, France",13173.3,0,1,1,1,0
+de5b7881-8ac0-47a9-8d6d-ec0ae839945e,Emily Gonzalez,23,"San Jose, USA",11113.2,0,0,0,0,1
+0b82c689-eac8-422a-97ef-c3dfeda2dc9d,Tammy Jones,58,"Madrid, Spain",14434.2,0,1,1,0,0
+f87ac5b1-eba5-423c-8dee-adf088af32c1,Tanya Brown,85,"LA, USA",64193.5,1,0,0,0,0
+590b7907-6241-47ec-95a9-73a1a0936e45,Ronald Roberson,80,"Madrid, Spain",13630.7,0,1,1,0,0
+494e321a-d815-45dd-a541-8ddc884ec01e,Steven Jensen,29,"San Jose, USA",17955.0,0,0,0,0,1
+de6de3eb-4fe5-47f1-b457-7b24ba40429f,Ryan Harris,27,"San Jose, USA",11925.9,0,0,0,0,1
+c37ef727-0d6c-44bd-9009-a3af7eddc6f3,Fred Raymond,46,"San Jose, USA",10395.0,0,0,0,0,1
+3d0a234e-60ac-44d7-ab98-540b379c95fc,Parker Harris,59,"Milan, Italy",3042.9,0,1,0,0,0
+80160a92-6896-438a-b1bb-90c9ec63c5af,Connor Jenkins,36,"Milan, Italy",3211.0,0,1,0,0,0
+70f43f3e-b403-44e2-a549-677ae8b0afa7,Brandon Taylor,59,"LA, USA",104293.20000000001,1,0,0,0,0
+8477e8b7-7fb3-4ee5-b8ed-05faddf07248,Zachary Perry,72,"San Jose, USA",27518.4,0,0,0,0,1
+561bb4ca-63bc-48dc-8ffd-8bde708d730e,David Sullivan,23,"Madrid, Spain",3386.5,0,1,1,0,0
+72c1ddeb-e1e2-4de0-8b11-e5b652442403,Jesse Horn,58,"Paris, France",26660.0,0,1,1,1,0
+38680ae0-8baf-4116-bc0f-4bb22d796a94,Sarah Wiggins,65,"San Jose, USA",4459.0,0,0,0,0,1
+7ad80e0b-3850-4d5e-a413-b8a0b1ffb2a5,Lori Brown,41,"San Jose, USA",4981.5,0,0,0,0,1
+2b93d797-3344-47cf-92b3-1000e15aca3b,Gloria Krause,68,"LA, USA",2443.5,0,0,0,0,0
+17050676-da02-4d51-90b4-9e158488409f,Jessica Haynes,79,"Paris, France",104.0,0,1,1,1,0
+095ce006-bd1c-41d1-93ad-0876c54ced00,Phillip Keller,89,"San Jose, USA",4946.5,0,0,0,0,1
+2e9e9030-a915-40b2-9c00-ed316992af60,Brady Williams,17,"Paris, France",3458.0,0,1,1,1,0
+c38448ef-7723-4715-ab7f-5f86f29d6a6c,Christopher Holmes,69,"Milan, Italy",20353.8,0,1,0,0,0
+0a003d56-aa57-4c6a-81af-5af19a219d83,Taylor Dixon,69,"Paris, France",2925.0,0,1,1,1,0
+c3ffbc0a-8f7a-4cd5-ac4b-46ed3e11e834,Aaron Bennett,59,"Milan, Italy",6006.0,0,1,0,0,0
+74e44eb6-dc79-4a29-b03f-dea44b9902af,William Tran,15,"San Jose, USA",52841.5,1,0,0,0,1
+1a0c776f-1662-4dd4-b534-3a85a9703df7,Luis Gordon,67,"Madrid, Spain",71800.1,1,1,1,0,0
+272345d9-6945-4475-9dfc-02c1aba8b3b0,Gregg Pham,45,"Paris, France",27025.5,0,1,1,1,0
+e80df229-1757-49d0-9214-d1e34c824cce,Logan Ramsey,82,"Paris, France",132727.3,1,1,1,1,0
+4f93bdcb-f00a-46ba-88a3-a8696585b692,Dana Douglas,42,"LA, USA",15461.1,0,0,0,0,0
+4d87d90a-5707-42bc-b479-88997b085d60,Jordan Johnson,70,"Milan, Italy",27570.2,0,1,0,0,0
+9a55e5f7-2da0-4272-bb55-10799fd42e5e,Johnny Schneider,53,"Madrid, Spain",11438.7,0,1,1,0,0
+4b2ad9bb-2d62-48ed-b565-84c87c7e3c28,Michael Case,78,"Milan, Italy",46866.0,1,1,0,0,0
+a49965cf-afe0-4135-ba36-3d8edb59b489,Karen Smith,53,"Madrid, Spain",25579.2,0,1,1,0,0
+4b26cf46-11a7-480a-a9de-5dca690c0df6,Jeremy Mcmillan,29,"Milan, Italy",138975.3,1,1,0,0,0
+8b44fb2a-303b-4238-980f-368150dab8bf,Jose Barker,75,"San Jose, USA",46165.2,1,0,0,0,1
+cf0e1495-a8af-4b8d-95d6-06e95a3c7a9e,Heather Allison,16,"San Jose, USA",39432.0,1,0,0,0,1
+ecce2b54-cb33-4e7c-9a32-bb72b40ff030,Cheryl Jones,39,"Paris, France",17806.4,0,1,1,1,0
+a447e62d-c758-46a4-9aa6-0d6f2ed71220,Daniel Wilkins,79,"Paris, France",11606.4,0,1,1,1,0
+d38cb1f8-a2b7-4f89-bd5a-438260a904f4,William Salazar,80,"Milan, Italy",47219.2,1,1,0,0,0
+c4e53422-164c-4241-abde-1ade54cb04e3,Nicole Scott,48,"Milan, Italy",31396.8,0,1,0,0,0
+7e157de7-e1d9-49ad-8628-c8c8a259fc16,Jessica Gibbs,42,"Paris, France",6051.2,0,1,1,1,0
+a40e6014-58e6-4488-942c-6d3de718253a,Tamara Gonzalez PhD,71,"Paris, France",59486.4,1,1,1,1,0
+8df7d8e9-8715-4b4f-9bfe-0a67a4b9b930,Rick Burgess,54,"San Jose, USA",10611.0,0,0,0,0,1
+4f07e11f-506e-4891-bf53-eb536379d8dd,Ronald Evans,81,"Paris, France",53460.0,1,1,1,1,0
+8298547d-08b6-4e36-91ee-190acf4762e5,Kathleen Hartman,77,"Paris, France",64863.6,1,1,1,1,0
+2df00139-26c9-43c7-ad95-746529eec455,Karen Brown MD,56,"LA, USA",56943.0,1,0,0,0,0
+b6f7b6e7-18ff-40f6-bf27-8a61991e3af6,Stephanie Sanchez,72,"Madrid, Spain",61722.0,1,1,1,0,0
+800d2403-8921-48d6-853f-e481671729cc,Betty Meyer,74,"LA, USA",109905.0,1,0,0,0,0
+33e77e63-359c-48fb-baf8-ce72dbe83d54,Jacob Stokes,19,"San Jose, USA",70875.0,1,0,0,0,1
+ec54a97d-2bab-4dfc-a0bd-2ed9b79aa4ca,Patricia Powers,51,"LA, USA",88086.70000000001,1,0,0,0,0
+08b74fb7-3d07-4ebd-b3c5-bc310bf26619,Cindy Thomas,35,"LA, USA",34293.6,0,0,0,0,0
+60e8475c-3f1f-4bc6-990c-817ab0606c0a,Thomas Hart,21,"Milan, Italy",21304.8,0,1,0,0,0
+af5f6d46-1dd7-4351-9aea-aff52b3e6b14,Krista Gates,77,"Madrid, Spain",23364.0,0,1,1,0,0
+7ce68dab-818c-40c7-846b-8489f0a37981,Suzanne Douglas,78,"Milan, Italy",2842.4,0,1,0,0,0
+f35b5777-ff17-4224-9a0e-e33a4702b63d,Amanda Burns,90,"Paris, France",28250.5,0,1,1,1,0
+42e6026b-1fad-41df-a901-1d0e0cd2d9e2,Aaron Wheeler,89,"Madrid, Spain",8987.0,0,1,1,0,0
+ec3da4f0-94c5-4fb8-bf30-c35fd267a5fc,Robert Terry,45,"LA, USA",49583.0,1,0,0,0,0
+f28620bb-b46f-4a54-9d17-77a7978a8db0,Ms. Tonya Schmidt,78,"Madrid, Spain",12984.7,0,1,1,0,0
+86022852-6af2-41fb-adbb-cf7dbb6c1bfc,Stephen Schultz,62,"Milan, Italy",1818.3,0,1,0,0,0
+7355c717-d36e-4716-8083-f575659c3c92,Matthew Dunn,21,"Madrid, Spain",50475.1,1,1,1,0,0
+c3034fa1-3710-4409-b9b1-c41f92f9f464,Jason Wiggins,53,"Milan, Italy",8171.9,0,1,0,0,0
+dfeebe19-595f-4018-a12f-8214b3e7d73e,Zachary Oneill,56,"LA, USA",10052.9,0,0,0,0,0
+344e24c5-f84f-4145-8bc4-931b805063b7,Alyssa Johnson,36,"Madrid, Spain",13626.8,0,1,1,0,0
+4c0d1871-27bc-4730-82e8-b84a61d9ccff,Gary Phillips,56,"San Jose, USA",16970.8,0,0,0,0,1
+652320bb-85b7-4a08-b116-ea68ec3935be,Jessica Eaton,80,"LA, USA",5726.6,0,0,0,0,0
+d69a686f-bdb9-4587-826b-be5b9158a07b,Sophia Barnes,89,"Paris, France",269.6,0,1,1,1,0
+20b1279b-281b-4124-a784-335b5bb9a746,Brandon White,90,"LA, USA",13311.5,0,0,0,0,0
+751212a9-fa59-4e37-a49c-38ebf9afd3cd,Tammie Hall,58,"Madrid, Spain",1011.0,0,1,1,0,0
+c026f47b-1ac4-4d42-91cf-a9ef85c30806,Joanna Morgan,17,"Paris, France",15091.5,0,1,1,1,0
+58adb90b-e6f5-4199-af2c-167225f21b1a,Mrs. Lisa Browning,88,"San Jose, USA",26463.4,0,0,0,0,1
+9d82209a-f142-4eaa-8f99-edd81385c6ca,Daniel Rice,45,"San Jose, USA",27064.699999999997,0,0,0,0,1
+c4babd53-777b-41c2-8438-945af7cb024e,Michelle Pollard,42,"LA, USA",42745.2,1,0,0,0,0
+3c2ee901-d1e8-4e15-a426-ad533088ba53,Patrick Mills,27,"Madrid, Spain",5156.1,0,1,1,0,0
+53c06087-b6ef-4a65-a469-4d4e5d57404c,Danny Herrera,89,"LA, USA",31341.0,0,0,0,0,0
+8426e8b9-b205-4a71-9705-0d8bb63d0c15,Robert Anderson,35,"Milan, Italy",20015.8,0,1,0,0,0
+575927f1-ae20-4cf2-92b0-6fae27e1f66b,Shirley Mitchell,53,"Paris, France",33363.0,0,1,1,1,0
+958509d7-ce66-45bf-9269-fd56b8406ea0,Marie Ballard,22,"San Jose, USA",11929.8,0,0,0,0,1
+7fa8863e-a4a7-469c-b4e3-febeb6009795,Thomas Ayers,58,"San Jose, USA",12199.4,0,0,0,0,1
+fee5ede3-6c0a-431d-a929-e7e441c0b9a8,Tyrone Thompson,31,"Madrid, Spain",20270.3,0,1,1,0,0
+f2f7e811-86c1-42e9-99fd-a5f5c9457168,Charles Martinez,86,"Paris, France",21653.4,0,1,1,1,0
+fa93bbf2-6d2b-45aa-b837-beb36abc0030,Kelsey Luna DDS,26,"Milan, Italy",22773.8,0,1,0,0,0
+81ea85a0-eb1a-4c05-b1f7-8884b5cf6b75,Ashley Estes,37,"Paris, France",18187.9,0,1,1,1,0
+776e7881-c8dc-4344-aadc-ac1f604b9f94,Michael Farley,45,"LA, USA",18259.6,0,0,0,0,0
+a679dba0-d141-4ab0-992f-99277cec83d1,Samantha Gutierrez,56,"LA, USA",35975.9,1,0,0,0,0
+70aadc03-4d99-406e-a901-620d051c9f5e,Rita Roberts,68,"LA, USA",867.3,0,0,0,0,0
+63822e99-df35-44db-91c0-9c748d0e9c8b,Thomas Young,68,"Paris, France",2542.9,0,1,1,1,0
+eba621c1-7b49-4b0b-a16c-eeaf1fb113d5,Sonya Henderson,33,"Madrid, Spain",1480.9,0,1,1,0,0
+46af2f5e-db7b-46df-8897-e1b3cb5b34fe,Lisa Wallace,31,"LA, USA",5870.5,0,0,0,0,0
+4282b8bf-fa7d-437b-bccf-d78f3aa42c08,Bradley Brown,49,"San Jose, USA",5363.1,0,0,0,0,1
+94f58d38-6cd4-493f-a976-4873e92873f7,Adam Moreno,87,"Madrid, Spain",5304.1,0,1,1,0,0
+fb181115-534d-466d-9054-6de462b8ee66,Jasmin Arnold,48,"Paris, France",2011.9,0,1,1,1,0
+1789ede0-2171-4d35-ab28-bab02d3476e1,Diana Chase,59,"LA, USA",2808.4,0,0,0,0,0
+fdd9d2ad-7656-4381-9b8f-8de03eeefa04,Joe Pennington,61,"San Jose, USA",15763.8,0,0,0,0,1
+c24cdcd6-a4b7-481d-aa3d-34f046b1af7f,Kayla Alvarado,77,"Milan, Italy",3045.6,0,1,0,0,0
+4fa15bc7-d9b2-4448-a4b4-7d70b0ebeeac,Alex Turner,79,"Milan, Italy",17366.4,0,1,0,0,0
+9c403f65-12db-44fb-92d5-7d07454dc577,Patricia Martinez,18,"San Jose, USA",27647.6,0,0,0,0,1
+2c0e43d4-3bcd-4e62-b847-a6b8ce5e56bb,Betty Peterson,15,"San Jose, USA",15228.0,0,0,0,0,1
+d25f2ea2-6ca9-4873-b714-4345b35bbfd4,Linda Cunningham,41,"San Jose, USA",25986.3,0,0,0,0,1
+e0c6bbe9-c73b-45aa-8285-14b1c4a81a29,Jesse Small,42,"Milan, Italy",8121.6,0,1,0,0,0
+346ee06d-da39-4d22-8c28-3b94ac5fff10,Jason Tran,40,"Milan, Italy",25662.0,0,1,0,0,0
+ab63da82-cb3f-4d8e-a3bb-59252efbd778,Devin Davis,72,"Paris, France",14128.2,0,1,1,1,0
+001c78d0-7958-4298-a0a0-e79009d36327,Gregory Jackson,20,"Madrid, Spain",24957.0,0,1,1,0,0
+146d6fff-9306-40d7-b050-7cb16a9cc9a1,Ana Pierce MD,55,"Madrid, Spain",17314.8,0,1,1,0,0
+9bb8dd54-506e-4e65-951e-6a79d1331487,Matthew Gonzalez,63,"Madrid, Spain",23547.0,0,1,1,0,0
+09abf465-c250-4ff4-8f95-44e78eb3d228,Kathleen Mitchell,72,"San Jose, USA",6175.8,0,0,0,0,1
+17c6b058-59df-4065-b002-3a7b126883f8,Shannon Brown,68,"Milan, Italy",13225.8,0,1,0,0,0
+14b85be0-e505-41d3-a59f-a00a149f4a1b,Paula Barker,80,"Paris, France",14720.4,0,1,1,1,0
+d80a4ac5-ce7d-48d1-901c-d17d62eab6ac,Benjamin Reed,21,"Madrid, Spain",23857.2,0,1,1,0,0
+ce47024e-5b7f-414d-b6e5-cf93fbf148ba,Stephanie Lam,30,"Paris, France",38937.6,1,1,1,1,0
+8060990a-ce99-45ce-906a-0232dee9a289,Jared Hobbs,22,"Paris, France",16348.8,0,1,1,1,0
+07c0895f-ebec-43b8-98e7-0c6f1184288c,Kelly Lane,90,"Milan, Italy",15350.4,0,1,0,0,0
+9658929c-4397-42e2-93d2-d46621ffaa36,Dominique Diaz,74,"Milan, Italy",14643.2,0,1,0,0,0
+a6394bc2-74bd-4172-8390-160aa3e46228,Michael Roy,47,"Paris, France",166.4,0,1,1,1,0
+cc4b4472-68fd-43e8-af41-0222ace12466,Timothy Meza,24,"LA, USA",39187.2,1,0,0,0,0
+b7d326f7-5ed5-4676-b8d7-a8072aa7a5d2,Joshua Clark DDS,24,"Paris, France",7488.0,0,1,1,1,0
+ff00e1f3-d075-4ce5-9392-107cbd83769e,Joshua Johnson,19,"Milan, Italy",15641.6,0,1,0,0,0
+ec976fcc-6ed4-47b4-8a0c-1c2a69c5ee24,Andrea Fischer,32,"San Jose, USA",100526.6,1,0,0,0,1
+2f752f0c-bcea-46c7-88ce-78490615d23d,Tracy Collins,15,"San Jose, USA",81747.2,1,0,0,0,1
+f8c86c10-2f5f-44eb-a31e-c55927200767,Jason Whitney,39,"LA, USA",57358.0,1,0,0,0,0
+39741d0c-fad8-4844-a989-223c95058c8c,Mary Pineda,85,"LA, USA",41934.0,1,0,0,0,0
+e21b29b7-eb59-43ef-b80b-96ac53a6b30c,Wesley Williams,47,"San Jose, USA",90616.0,1,0,0,0,1
+2c4a99ce-947b-403d-b207-31637ebf2e9e,Samuel Collins,58,"Paris, France",78718.8,1,1,1,1,0
+eac8870b-5de3-4c42-a6ad-a25d35806846,Jamie Goodwin,63,"LA, USA",55729.3,1,0,0,0,0
+d852a630-db08-406f-9b6b-1201a80fde1f,Tracy Crawford,53,"Milan, Italy",23483.7,0,1,0,0,0
+3fed69a9-e14f-48b7-becb-a0bf919fdaf3,Michelle Johnson DDS,48,"LA, USA",60345.6,1,0,0,0,0
+cb3d4570-3b21-4ff3-aac7-c927692e00b5,Margaret Williams,23,"San Jose, USA",33136.5,0,0,0,0,1
+f8f9bda1-20b9-4913-b184-895e2063188e,Jack Moore,78,"Paris, France",42728.7,1,1,1,1,0
+de81904a-0989-44fa-87b9-3aefb56b87e1,Gina Petersen,86,"LA, USA",1484.1,0,0,0,0,0
+051e10bc-8de2-4ac4-a335-096889740766,Shannon Baker,36,"Milan, Italy",23687.4,0,1,0,0,0
+3db573e3-7bf9-452a-84cd-10a6e9bdc426,Cody Costa,63,"Milan, Italy",36702.5,1,1,0,0,0
+ef787084-89bd-4b47-9713-67bff695b13c,Cole Allen,67,"LA, USA",27975.0,0,0,0,0,0
+69b2ebeb-9325-4481-a6eb-358a1fc59883,Shawn Campbell,45,"Madrid, Spain",28348.0,0,1,1,0,0
+f5225137-4df8-45c4-b4dc-842aa9f7bc0a,Courtney Smith,66,"Madrid, Spain",2834.8,0,1,1,0,0
+09d9c871-3872-4426-a6fe-47fa741b8460,Christine Stevens DDS,57,"LA, USA",12980.4,0,0,0,0,0
+0367469b-b755-4256-85a6-76257f083b5a,Leslie Watson,84,"Paris, France",35099.3,1,1,1,1,0
+487cd6ee-1247-40c9-9ebf-221487c9689f,Vincent Peterson,73,"Milan, Italy",27117.1,0,1,0,0,0
+3d64f4ef-f841-4b0b-ad95-32a174cd3e4a,Francisco Gutierrez,76,"Milan, Italy",27079.8,0,1,0,0,0
+ded6c381-8e44-408d-8b85-b32590c9c0e4,Kathleen Murphy,47,"Milan, Italy",29280.5,0,1,0,0,0
+5413a9e0-e87b-41c4-8301-30b07c9d53f3,Ronald White,79,"Paris, France",23760.1,0,1,1,1,0
+98fa3fa5-50d7-47ed-81f9-5bac604ddae9,Justin Flores,27,"Madrid, Spain",11301.9,0,1,1,0,0
+8391c9d0-2377-411f-a52c-992fe95e7cc5,Tiffany Williams,75,"Madrid, Spain",17829.4,0,1,1,0,0
+3a06db95-28b0-4558-80ea-cfe78b64fc7f,Kimberly Tanner,45,"Milan, Italy",6527.5,0,1,0,0,0
+520f25c3-a775-4102-b36f-7c7cbaab02d6,Timothy Jones,62,"LA, USA",28163.4,0,0,0,0,0
+a65e55f6-3189-4448-be6f-496725693ff3,Samuel Alexander,78,"San Jose, USA",10352.3,0,0,0,0,1
+e2aae2bd-2a22-46c0-9db5-b1ae2bc259b4,Courtney Mckee,47,"San Jose, USA",53907.5,1,0,0,0,1
+95d1ad39-ebf4-424f-afe2-be20cffe8ab9,Dana Watson,69,"Milan, Italy",55952.5,1,1,0,0,0
+3971695c-3f43-47af-bb69-96dd0913d6ce,David Warren,75,"LA, USA",13503.0,0,0,0,0,0
+b7357cdf-c991-4755-8e68-52dfd373eda8,Theresa Stone,85,"LA, USA",1543.2,0,0,0,0,0
+b624ef56-aff9-4403-bc9b-3094e7eeb6fe,Edwin Palmer,85,"San Jose, USA",83971.6,1,0,0,0,1
+a3e17a8b-4255-45b8-9576-a22241b856dc,Michael Green,54,"Milan, Italy",10271.2,0,1,0,0,0
+4058653e-c1d6-414b-9685-9aeec6f3556e,Shane Lucas,69,"Madrid, Spain",41987.0,1,1,1,0,0
+3e851029-06ee-4ab6-b440-85c391a88469,Erica Stokes,60,"Milan, Italy",17211.2,0,1,0,0,0
+1580a90d-b6f2-4b91-ad0a-feaf08354f19,Melissa Wolfe,79,"Madrid, Spain",41622.9,1,1,1,0,0
+a7668c88-98e3-49dc-bc8c-9d3e6081d997,Mr. Cory Wilson,15,"San Jose, USA",14074.2,0,0,0,0,1
+985ed5b4-d2ac-4de2-aa2a-8bb27a810ef0,Rhonda Williams,45,"Madrid, Spain",17072.4,0,1,1,0,0
+4c3111cb-240d-4336-8a9b-969f3123a0b8,Robert Deleon,88,"LA, USA",34422.4,0,0,0,0,0
+a19ce929-23dc-494c-a025-d5731d804232,Amanda Hayes,52,"Madrid, Spain",65027.8,1,1,1,0,0
+153f1986-ad94-4c9c-a883-df7ae80270f6,Roberto Stanton,68,"Milan, Italy",93159.3,1,1,0,0,0
+6e7bd1ef-b1db-42b7-831d-c23d4e1c42f4,Jenny Johnston,46,"LA, USA",11381.6,0,0,0,0,0
+636ad6fb-e4fb-4235-9a34-8c08319cbc4f,Rachel Schneider,53,"Paris, France",25582.4,0,1,1,1,0
+90966367-43b0-449f-90af-8471cb2c6969,Tara Baker,62,"LA, USA",39782.8,1,0,0,0,0
+07a552a5-96de-4dc6-b7bd-73a31168b2e3,Edward Christian,73,"Madrid, Spain",27655.199999999997,0,1,1,0,0
+02cbcc17-d50a-4b1a-90a6-8a459566209d,Lindsey Anderson,23,"San Jose, USA",33983.4,0,0,0,0,1
+85470d46-6892-42bb-93d2-783369fcb499,Bryce Perez,66,"Paris, France",48408.8,1,1,1,1,0
+09bb48c8-b10a-41ea-b2a4-ca765ef04c71,Jessica Garcia,88,"Madrid, Spain",3547.2,0,1,1,0,0
+ceca3c58-f118-48db-9829-92eb305373d2,Oscar Peters,78,"LA, USA",55942.3,1,0,0,0,0
+26dcd3bc-a188-4869-9ee9-c847faa41bae,Karen Campbell,85,"Milan, Italy",13509.0,0,1,0,0,0
+bfa6ff3d-58f9-409d-a71c-ffbbaa1d77e0,Nicole Ingram,45,"Paris, France",30077.3,0,1,1,1,0
+625ba9e5-6aea-4360-bc29-71b8f6335a21,Nicholas Jones,22,"San Jose, USA",20987.6,0,0,0,0,1
+d83f0e9e-072d-4796-882b-32cfa1c7cb48,Kimberly Stewart,45,"Paris, France",68357.5,1,1,1,1,0
+bc8a5a3f-3faf-459b-a951-b0850d08e33a,Diana Vazquez,55,"Madrid, Spain",13436.8,0,1,1,0,0
+eece5502-942a-4f2b-b18e-7670bbc47ed5,Christopher Alvarez,57,"Madrid, Spain",41711.899999999994,1,1,1,0,0
+3e001f05-285f-41fd-8109-6cacbecc8096,Mr. Danny Norris Jr.,50,"Madrid, Spain",8817.9,0,1,1,0,0
+2e7204a4-cbbe-4a69-ac19-872ed2914382,Kevin Butler,62,"San Jose, USA",6386.9,0,0,0,0,1
+2da38c98-e116-4223-932a-9b14df788761,John Smith,48,"LA, USA",17215.9,0,0,0,0,0
+b19d02d5-24e6-47ee-a7a8-5a9a3bddc918,Carla Villa,47,"San Jose, USA",12530.7,0,0,0,0,1
+1428f506-fdde-4851-bce9-5407fead4d08,Yvonne Barrett,77,"Paris, France",25322.0,0,1,1,1,0
+5f6fb0f8-f9f1-4402-9ae6-0d712aa61dd7,Christina Rogers,51,"Madrid, Spain",7548.2,0,1,1,0,0
+57ab74c0-8c0d-4c24-95c4-8c504214bada,Abigail Rogers DDS,73,"Paris, France",35005.6,1,1,1,1,0
+ce4757b6-1eec-41b2-b21f-ca562b5e08c6,Lisa Cox,32,"Paris, France",12304.6,0,1,1,1,0
+5fa0a7ba-500e-49e5-b261-be5d77059a59,Benjamin Figueroa,68,"Milan, Italy",24402.4,0,1,0,0,0
+b2a413bb-022d-408e-a149-e9e122755626,Billy Lynch,85,"San Jose, USA",23678.6,0,0,0,0,1
+07e57677-1f6b-4587-86a6-2c7cd920855c,Latoya Trevino,32,"Madrid, Spain",18612.0,0,1,1,0,0
+b9541665-13a9-43dd-86b0-abe6233ed00d,Olivia Larsen,82,"San Jose, USA",8474.4,0,0,0,0,1
+1e026559-1f0c-4587-9ebb-9dd45e68d5b6,Frank Ruiz,16,"Paris, France",19668.0,0,1,1,1,0
+2733eb7d-114c-4246-94a8-4dd6d00efe72,Andre Green,76,"Paris, France",4435.2,0,1,1,1,0
+cd0ccce3-8b1f-47af-87f8-3d3386d80ff0,Derek Odom,23,"Milan, Italy",17160.0,0,1,0,0,0
+b657854a-0446-4353-b969-4072dd508971,Megan Fuller,75,"Paris, France",8896.8,0,1,1,1,0
+22410e9e-2a8b-4660-a3bd-758ed606c52f,Matthew Lawrence,58,"Paris, France",2349.6,0,1,1,1,0
+aa162e8c-ebee-464a-a708-5f433c112c41,Nicholas Green,69,"San Jose, USA",7656.0,0,0,0,0,1
+5e1756cc-a06e-49cc-9bc2-80fd5e0d1edf,Jonathan Smith,32,"San Jose, USA",20196.0,0,0,0,0,1
+9a55ab6b-dc04-499e-bcc5-2ba63b8f499d,Jordan Peterson,56,"Paris, France",8500.8,0,1,1,1,0
+4d7b4944-3a08-4bcd-a939-35b5ddca4a5d,Margaret Chavez,53,"LA, USA",9556.8,0,0,0,0,0
+79a81e5a-4e2e-41f1-992e-f11472ce4e55,Michele Barron,75,"Madrid, Spain",24097.5,0,1,1,0,0
+4a3b9cd6-3063-43d8-869a-48180498c668,Rachael Crawford,63,"Madrid, Spain",64285.2,1,1,1,0,0
+1e7e7732-2dcd-4133-a6ea-006e1bb7235a,Joshua Nelson,84,"Milan, Italy",26647.5,0,1,0,0,0
+eb9b4ad4-812b-4e2e-bf02-d7551c4bce20,Carla Nelson,89,"Madrid, Spain",48023.0,1,1,1,0,0
+aefa5527-b6dd-49f6-bed7-10d43c8f8736,Elizabeth Richards,84,"Milan, Italy",9435.0,0,1,0,0,0
+1f5b9de2-59c3-4f9f-a4fc-a435a2b43736,Kenneth Morrison,49,"San Jose, USA",11390.0,0,0,0,0,1
+e8b21a6c-c6ce-42d4-a4ec-fe90d1f671c2,Mrs. Kimberly Jordan,80,"Milan, Italy",3989.4,0,1,0,0,0
+dcd90784-6721-4a4b-be9b-e6a403f98a6e,Ivan Smith,86,"San Jose, USA",32824.799999999996,0,0,0,0,1
+c48922d3-e284-4a73-a3c0-d0c3556a8e3d,Michelle Martinez,70,"Milan, Italy",30597.6,0,1,0,0,0
+0802463f-8ef1-4271-b5cb-f5eca3be9c6a,Tony Chavez,56,"Milan, Italy",25144.2,0,1,0,0,0
+c1aa84ab-c9b6-49f4-9ca8-d33e01873a50,Adam Wilson,53,"Milan, Italy",3220.8,0,1,0,0,0
+5dcfe0e8-248a-42cf-b03e-f9ecb7f73514,Renee Gould,51,"LA, USA",12187.8,0,0,0,0,0
+f80a7d4a-cc92-4228-b351-bbc3849483af,Stephanie Turner,74,"LA, USA",31549.2,0,0,0,0,0
+ceb4c711-d6a7-4d66-a414-42bed5b82283,Carl Fisher,42,"LA, USA",1292.0,0,0,0,0,0
+ef3ae404-1af8-462f-9d64-f56f88775a92,Kenneth Callahan,63,"Paris, France",9943.7,0,1,1,1,0
+f9801610-2e66-4adf-a266-9d0035df26ae,Phillip Castaneda,17,"Madrid, Spain",547.4,0,1,1,0,0
+977b8dc9-e1be-436e-98b7-d028c8739ae6,Theresa Liu,78,"San Jose, USA",36468.1,1,0,0,0,1
+1bf3df28-8d49-430c-85a5-292177b0550e,Jonathan Nichols,31,"Madrid, Spain",1458.6,0,1,1,0,0
+8a9e69ab-3834-4b71-94cd-6dedc10bc247,Luis Gomez,70,"Madrid, Spain",1417.8,0,1,1,0,0
+c258b680-c7c4-45cf-8349-e583bfef2845,Robert Watson,28,"LA, USA",35612.0,1,0,0,0,0
+7dd7f9fe-498c-49c6-b09c-2c6c19e79e37,David Kent,28,"San Jose, USA",42630.0,1,0,0,0,1
+9f580da1-94fb-4474-accc-1eb74d0fd495,Noah Reyes,53,"San Jose, USA",18850.0,0,0,0,0,1
+2b2b5a43-b15d-4944-be8a-165c14ad71d5,Krystal Huffman,36,"LA, USA",7366.0,0,0,0,0,0
+7d76a17c-667c-4027-95db-e181fffc0172,Joseph Rios,37,"Madrid, Spain",8131.2,0,1,1,0,0
+150e5dd6-e3c3-4c62-830d-77c9171ded4a,James Petty,16,"Milan, Italy",14922.6,0,1,0,0,0
+18019f57-4f94-415f-a486-d7b37c98236a,Stacey Harper,81,"Paris, France",1313.7,0,1,1,1,0
+bc010db0-e675-46c8-aff2-9b202664fad9,Gary Shaw,27,"LA, USA",3729.7,0,0,0,0,0
+f45e1309-cda0-413d-b86b-ece2b56af22b,Kimberly Vazquez,21,"Milan, Italy",5496.4,0,1,0,0,0
+474d4437-8940-4a82-96c6-513ae38a5ece,Mark Torres,23,"Madrid, Spain",392.6,0,1,1,0,0
+c23017e0-6653-40dc-8d7b-3b5509c98d42,Anna Little DDS,71,"Paris, France",7581.6,0,1,1,1,0
+6203de93-9f32-4471-bcee-df52c0e1a8a7,Cindy Butler,90,"Paris, France",10099.4,0,1,1,1,0
+3ea7a649-777c-47f2-a264-d6eca8f2472c,Christine Santana,53,"San Jose, USA",4009.5,0,0,0,0,1
+d298ed05-ca13-4204-adc5-7427f30148d3,Andrew Short,26,"Paris, France",11396.7,0,1,1,1,0
+5dfd110a-7b74-46d5-b931-f1cb9be0069b,Kristin Garcia,89,"LA, USA",77884.0,1,0,0,0,0
+74b6be69-921c-4ce4-b019-6d129ed345f7,Phillip Jacobs,24,"LA, USA",18225.0,0,0,0,0,0
+1de796d1-1d83-459b-9238-03d48a132f5f,Sarah Duffy,33,"Milan, Italy",19197.0,0,1,0,0,0
+fd3376df-ab07-40fd-8bbb-8729ac8b310d,Blake Garner,90,"Madrid, Spain",21675.6,0,1,1,0,0
+eecd6f1e-17cc-427e-8058-2203700634af,Rebecca Lopez,29,"Milan, Italy",1944.0,0,1,0,0,0
+47abb313-3837-4c4a-955a-27dabb1a72b5,Christopher Rosario,81,"Paris, France",17374.5,0,1,1,1,0
+e27e15e2-f7a8-403c-846c-a062e7491379,Dana Rojas,69,"Paris, France",45518.4,1,1,1,1,0
+b87dabbb-7697-4e79-97dc-978803188cdc,Julia Duke,30,"Paris, France",9604.8,0,1,1,1,0
+003669a7-f3ec-40e3-a71d-ad10e9fd50cf,Joshua West,55,"LA, USA",30763.2,0,0,0,0,0
+2af736b8-5fbf-4d08-a70b-6c8adaaff302,Manuel Walton,59,"Milan, Italy",3016.0,0,1,0,0,0
+70a3f4b7-c396-4b4c-ae77-d84ab5055587,Kimberly Erickson,31,"Madrid, Spain",20880.0,0,1,1,0,0
+3f5adba5-7cf8-4bd2-95b1-2b58457dc05c,Michael Mosley,22,"Milan, Italy",10718.4,0,1,0,0,0
+5ae91ed2-bb3a-4f83-8887-48be00308f5b,Elizabeth Walker,69,"Paris, France",45363.2,1,1,1,1,0
+2b4e6c04-ad56-47e9-a58b-269cba52390d,Taylor Alvarez,27,"Paris, France",24360.0,0,1,1,1,0
+25b24c9f-40df-49b4-9a72-b33aa82ae20f,Lori Smith,82,"LA, USA",29649.6,0,0,0,0,0
+d85edd22-ac52-4f4c-aa14-2ee5eb326ef9,Christine Wilson,65,"Milan, Italy",12880.0,0,1,0,0,0
+797f6bc2-2898-411a-b9b1-3ee4546a9994,Alexandra Taylor,60,"Milan, Italy",40646.4,1,1,0,0,0
+4871c2c8-de7f-4e6f-8b3e-bfd07b31c583,Julie Montgomery,57,"Paris, France",16364.0,0,1,1,1,0
+dc8c80cb-361f-456f-b1fb-a0190ad1085d,Maria Larson,19,"Paris, France",34514.4,0,1,1,1,0
+0977b42e-09d8-4d84-bdef-538053e7bab1,Thomas Li,57,"San Jose, USA",55188.0,1,0,0,0,1
+0062013c-31ce-430f-a50c-e1e06b5379c0,Mrs. Melanie Hubbard MD,67,"Paris, France",56660.799999999996,1,1,1,1,0
+58a55411-92e3-41a6-a927-e0f3852afdef,Christina Valenzuela,51,"Milan, Italy",35454.9,1,1,0,0,0
+566dd88a-7cc0-4ad1-ad4a-ef12a96f0481,Barbara Smith,86,"San Jose, USA",162.0,0,0,0,0,1
+7fb39e60-6eab-435a-a102-2a5f8cedc4a8,Kathy Thornton,45,"LA, USA",412.8,0,0,0,0,0
+2f68f316-06c4-41ef-8097-4a7743232c29,Shannon Henderson,25,"LA, USA",312.6,0,0,0,0,0
+42c9aaf1-06df-47b7-8aec-25f99b841056,Emma Ramos,73,"LA, USA",480.6,0,0,0,0,0
+115d002d-2f73-4b58-a58a-205327323092,Michael Villegas,33,"Paris, France",30.0,0,1,1,1,0
+60529114-3e8d-465a-b1ef-cc579f28afb6,Christopher Collins,26,"LA, USA",129.0,0,0,0,0,0
+15b687dc-6d42-4497-b684-3f983f323ccc,Joe Palmer,15,"Milan, Italy",474.0,0,1,0,0,0
+af84343f-e2a4-4517-af71-642f8cbf2cde,David Shaw,60,"Milan, Italy",206.4,0,1,0,0,0
+fa04a81b-edd7-4a8b-a079-45777fcb361e,Lori Turner,31,"San Jose, USA",308.4,0,0,0,0,1
+94cac5b6-011c-47fa-b60b-2435cefc20d6,Michael Jones,20,"San Jose, USA",9711.0,0,0,0,0,1
+cdfdf528-79e3-4e33-adee-d21a3d2f3bc4,Walter King,63,"Milan, Italy",897.0,0,1,0,0,0
+c0161ab4-31d5-47da-9a9b-fe5a6565da8a,Adrian Ferguson,55,"San Jose, USA",1807.0,0,0,0,0,1
+bbdc6ddc-886c-4f32-954e-1ac38e1924f7,Lisa Jackson,27,"San Jose, USA",5876.0,0,0,0,0,1
+b2fdf4c0-233f-4033-b1af-e0c75612a505,Tonya Parsons,46,"Paris, France",39.0,0,1,1,1,0
+64671f9b-5f58-4a1f-8f96-e514f371ee6e,Thomas Bell,60,"Milan, Italy",7670.0,0,1,0,0,0
+f243bda5-7e64-4e37-ba12-be08ae77165e,Marie Serrano,63,"San Jose, USA",10959.0,0,0,0,0,1
+0baca59d-0dc9-4821-96c2-20728c15e0d6,Valerie Ortiz,38,"Madrid, Spain",5486.0,0,1,1,0,0
+88287eaa-d036-4204-9266-d3431a014a8a,Laura Brock,69,"Paris, France",4927.0,0,1,1,1,0
+66a8c67f-0dba-41c3-bdfa-54d7b828b831,Diana Craig,58,"LA, USA",49617.0,1,0,0,0,0
+573717c8-f180-4afc-9679-4d97dc751fca,Sharon Hall,19,"LA, USA",25628.0,0,0,0,0,0
+fad5dbf2-f6cd-4e80-a75a-8df40285f6ce,Melissa Landry,89,"Milan, Italy",49617.0,1,1,0,0,0
+3caf602c-9a7c-4d38-883a-24ade0f84a30,Marcus Miller,75,"Madrid, Spain",42884.8,1,1,1,0,0
+ed63ef2d-85d1-4418-9ee1-e14a706d022d,Christopher Roberts,74,"Madrid, Spain",70253.5,1,1,1,0,0
+9f7a81e2-d4f1-4fd6-8154-049b5e8d5c36,Joshua Ramsey,71,"Paris, France",15645.0,0,1,1,1,0
+b7e4fc07-4df0-42d9-91c5-5c498e4893c3,Kelly Callahan,90,"Milan, Italy",44923.5,1,1,0,0,0
+dde8f5e4-c180-40b7-bf5b-72f9368e535c,Richard Hampton Jr.,74,"LA, USA",23216.0,0,0,0,0,0
+35fdf496-b5ab-4cc2-a1e0-23886abc8438,Emily Knapp DVM,59,"Madrid, Spain",19305.0,0,1,1,0,0
+a8391921-d5c7-40f7-b084-0ddf489dfaf9,Christy Murray,64,"San Jose, USA",21278.4,0,0,0,0,1
+18bb62a4-b208-4ead-9082-a07bbfb83ab0,Debbie Allen,39,"San Jose, USA",13642.2,0,0,0,0,1
+b5effec4-ee7d-4d9d-9eda-bba8ed931cc4,Kathleen Hunt,48,"Milan, Italy",10496.2,0,1,0,0,0
+d4e8d180-f954-4e49-af54-280f32576874,James Ramirez,23,"LA, USA",715.0,0,0,0,0,0
+ac6375af-5fea-442c-ae65-20620820dc1f,Michael Knight,22,"Milan, Italy",25825.8,0,1,0,0,0
+f2128246-ae48-4a31-87b9-62b51dffa6ba,Timothy Moreno,89,"Milan, Italy",2860.0,0,1,0,0,0
+d4c51fe3-a9ed-472f-8a03-588448cf513d,Paula Johnson,50,"Milan, Italy",257.4,0,1,0,0,0
+a156aa11-58be-4792-9b0e-127542db618b,Brandy Moreno,66,"Madrid, Spain",30054.8,0,1,1,0,0
+efdd4910-eb3d-4ebc-b475-1b577abd2ca4,Jeanette Lam,63,"Milan, Italy",19396.6,0,1,0,0,0
+d5338436-72f3-41ca-9e04-196bafa82654,Zachary Mitchell,84,"Madrid, Spain",60175.8,1,1,1,0,0
+bef35973-146f-4413-8950-1f62df25c259,Vincent Valdez,24,"Paris, France",49583.8,1,1,1,1,0
+612610bf-b63f-4e09-85f1-42258d76a4f5,Stephen Thomas,51,"Madrid, Spain",8986.9,0,1,1,0,0
+632c7c57-a8a1-4e78-b6af-4045ad279832,Timothy Lloyd,46,"Milan, Italy",43430.6,1,1,0,0,0
+5190de68-ed6a-48b4-b7e7-0c6fe6a3b6c7,Steven Madden,75,"Madrid, Spain",23814.0,0,1,1,0,0
+dd8d0a4f-af9c-4ddd-83b2-a633788b00c8,Erika Hess,46,"Madrid, Spain",89618.4,1,1,1,0,0
+e1834b7f-bc77-4e14-8621-a3b3720d5767,Wendy Green,77,"Milan, Italy",87285.6,1,1,0,0,0
+d1766eda-0433-4928-a682-0feb03ea82c6,Katherine Scott,28,"Milan, Italy",2235.6,0,1,0,0,0
+792f0956-90c9-4378-a154-bbb2599ed4f0,Brittany Sanchez,40,"Madrid, Spain",21189.6,0,1,1,0,0
+3d7dc5bd-1274-4e6d-8339-b3eaa9851dd2,Todd Cabrera,77,"San Jose, USA",874.8,0,0,0,0,1
+99e9ca8d-80df-4312-8c8f-4282e4b1db50,Jessica Farmer,67,"Madrid, Spain",58417.2,1,1,1,0,0
+032630d0-54f3-4ce1-8e9b-0d5e2497a4d7,Katrina Taylor,50,"Madrid, Spain",5315.6,0,1,1,0,0
+eb693906-6c86-4653-a540-3fedec78d800,James Anderson,20,"San Jose, USA",37652.8,1,0,0,0,1
+53403219-a8fd-4547-8041-91072fc0196e,Lauren Peters,44,"San Jose, USA",7165.1,0,0,0,0,1
+71b333cd-8a69-4c41-8a52-25f3e049edf7,Nancy Ramos,15,"Milan, Italy",1890.6,0,1,0,0,0
+30a6a316-d8bf-4efc-9c8d-95f559cdaadf,Angel Fowler,52,"San Jose, USA",1260.4,0,0,0,0,1
+717e004f-0592-4578-9e4c-75b9182990be,Andrew Parsons,21,"LA, USA",8535.1,0,0,0,0,0
+69fd1a5b-5558-49a3-b342-135adf821dbe,Joshua Scott,60,"San Jose, USA",2767.4,0,0,0,0,1
+92656b2f-5f17-424f-963e-6a5877b2a3d6,John Herrera,53,"LA, USA",71625.0,1,0,0,0,0
+888c123f-d11d-4805-ba4c-21dd1ef12516,Hannah Garrison,57,"Madrid, Spain",17381.0,0,1,1,0,0
+29baadc5-5fe9-4c0a-b98d-3204efe07fd6,Jack Golden,41,"Milan, Italy",49851.0,1,1,0,0,0
+6935ae8a-9890-459a-b6c5-f0ae904cfbb8,Damon Lyons,21,"Paris, France",16139.5,0,1,1,1,0
+d5b59548-7027-4ed7-936b-bfac5886068d,Trevor Chandler,28,"Paris, France",43070.5,1,1,1,1,0
+734e835d-d44e-4937-8b7b-9fe2584f3d93,Kyle Thompson,55,"Paris, France",77164.0,1,1,1,1,0
+4f841e90-45e3-4012-9466-08b47d0a50f2,Ryan Vargas,55,"Paris, France",49182.5,1,1,1,1,0
+fc424934-149a-4f16-afe8-4639b5e846d1,Amber Robinson,43,"Madrid, Spain",394.5,0,1,1,0,0
+44a340c1-56d0-425f-98d7-765c9b1d019e,Lori Carey,57,"LA, USA",42606.0,1,0,0,0,0
+86916112-20fb-4fd7-950e-ccb7799f285e,Craig Ruiz,89,"Madrid, Spain",27284.399999999998,0,1,1,0,0
+1d3b2588-5f91-434b-a789-af36284fde35,Katie Snow,53,"San Jose, USA",59024.4,1,0,0,0,1
+ad77d394-bc63-46dc-b951-691f62c8d8c1,Teresa Jones,69,"LA, USA",2975.4,0,0,0,0,0
+a0fc8cee-2222-44a3-b7ef-ebb023ffa7e8,Patricia Boyd,51,"Milan, Italy",6968.7,0,1,0,0,0
+6c74e43c-3b2c-45d8-9451-d539df838e60,Kimberly Wiggins,89,"Milan, Italy",11249.1,0,1,0,0,0
+56ed84c3-37f5-4b10-b4a2-2ec6c286661f,Marie Gillespie,44,"San Jose, USA",11901.6,0,0,0,0,1
+f4f3fed9-f376-4e3b-9cee-3de599a327b2,Michael Barr,77,"Madrid, Spain",4932.9,0,1,1,0,0
+1d193fbd-d958-4ac8-9a37-174a53a6017c,Denise Frank,30,"Milan, Italy",38608.1,1,1,0,0,0
+aafacd62-2ea8-48bb-bb35-e564479a91e1,Donna Smith,50,"Paris, France",7537.4,0,1,1,1,0
+7e38a1ba-43bb-4d8d-90d4-25a7ef577d88,Heidi Jimenez,66,"LA, USA",7006.0,0,0,0,0,0
+9efe8d14-36c9-4fea-bd7a-fa08b28e09a0,Terri Morse,67,"San Jose, USA",30555.2,0,0,0,0,1
+7a24fff8-df39-4c5b-9d39-3283c94ee087,Charles Morgan,25,"LA, USA",8633.2,0,0,0,0,0
+78472ddd-f046-4d23-90b5-f30815a1a1e5,Erin Larson,80,"Madrid, Spain",723.2,0,1,1,0,0
+8b4b2d1d-01d1-419f-91ab-a6dda9385a6e,Rebecca Watkins,32,"Milan, Italy",33041.2,0,1,0,0,0
+cba077d3-ebc5-477e-92c9-08a8d5678041,David Dunn,20,"Paris, France",12249.2,0,1,1,1,0
+719032e4-3cd6-45db-8cbc-ce1a832eddea,Richard Hancock,85,"San Jose, USA",2760.0,0,0,0,0,1
+73d0bbef-df6b-4892-9035-4cf7ffa8a7ef,Ashley Welch,58,"Milan, Italy",4537.5,0,1,0,0,0
+8cf501fe-cd18-4dd8-9656-421e8360dd56,Autumn Kaufman,63,"Milan, Italy",6675.0,0,1,0,0,0
+6d6ea569-0663-4184-b671-2ff1cf189cdc,Lori Forbes DDS,60,"San Jose, USA",6810.0,0,0,0,0,1
+d1084c53-c828-45b3-b2c7-9f234d023879,Kim Rogers,24,"San Jose, USA",4290.0,0,0,0,0,1
+729fe331-4a7d-4954-b320-80c7f0d3ac82,Holly Walker,38,"LA, USA",2760.0,0,0,0,0,0
+fb0d0266-02cf-4c36-ae1f-6c0f58791909,Mary Carroll,16,"LA, USA",3787.5,0,0,0,0,0
+e70e9ad6-961e-4c4d-b3b6-665bbffe252b,Cole Johns,77,"Paris, France",2542.5,0,1,1,1,0
+1901e4df-fee6-4265-968a-97af8b48528f,Gregory Flynn,18,"Paris, France",37595.6,1,1,1,1,0
+0e2e782a-f28f-4f17-84b3-558a5fcc09bb,Travis Robinson,20,"Paris, France",43888.600000000006,1,1,1,1,0
+0cf4d5d5-cec8-47e6-81e0-5efd2cc2f7f5,Vicki Alvarez,24,"LA, USA",21315.0,0,0,0,0,0
+7abd3432-134a-4905-9e57-101cb12eca23,Pedro Odom,49,"Paris, France",17100.4,0,1,1,1,0
+bf222635-499b-49d0-b79f-62c508d21035,Yvonne Mcdonald,72,"LA, USA",7917.0,0,0,0,0,0
+18718c9a-6794-44af-9f9c-3d848506bdee,Richard Lee,78,"San Jose, USA",12342.4,0,0,0,0,1
+89132467-9f13-4204-b932-309ce679987d,Jennifer Gregory,89,"Madrid, Spain",15655.5,0,1,1,0,0
+a7355996-a64a-4a39-932e-cf8451876837,John Castillo,40,"LA, USA",11310.3,0,0,0,0,0
+0de8354a-fef1-4261-8d68-9a1b20f35778,Linda Norton,75,"LA, USA",9244.2,0,0,0,0,0
+556c4f0d-070f-4df9-9638-82b83f8feabf,Adam Johnson,45,"Madrid, Spain",1448.4,0,1,1,0,0
+e0f3de97-bddf-46db-807c-340e351c4e7d,Tamara Adams,34,"Milan, Italy",8370.9,0,1,0,0,0
+2ee098e7-34e8-46d6-bb72-01abcef166ee,Darryl Stout,16,"LA, USA",3940.5,0,0,0,0,0
+18ccf63a-e9f8-4821-83ad-36fb2b165fcc,Samantha Johnson,86,"Paris, France",7582.8,0,1,1,1,0
+c383cd1a-670d-48a2-9816-de6c6d4bc8df,Ryan Johnson,64,"Madrid, Spain",724.2,0,1,1,0,0
+f8dc43e9-3677-45c5-a73c-c3b3f8ee43f3,Charles Kelley,15,"Paris, France",10639.6,0,1,1,1,0
+e499ec67-d9ac-42b3-b649-dca147ede941,Travis Freeman,48,"Madrid, Spain",17205.6,0,1,1,0,0
+a919e83b-23cb-4891-aa1d-912717175ebe,Benjamin Anderson,24,"San Jose, USA",6512.4,0,0,0,0,1
+401109b1-c30d-4651-abc1-e5e8823aac72,Lori Singleton,66,"Paris, France",12998.0,0,1,1,1,0
+e7b1fd29-701b-4c0c-86a7-26e1b7132cf8,Stephanie Black,90,"LA, USA",8870.8,0,0,0,0,0
+8cccfadb-0d17-479d-b57d-1ce0b5dd8663,Michael Koch,88,"San Jose, USA",7343.2,0,0,0,0,1
+94f40089-5b2b-4adb-b5d4-1a27c2542dbd,Jessica Hanson,52,"San Jose, USA",8415.2,0,0,0,0,1
+f0d8a927-6721-41d6-abd8-16b99eb93707,Heather Barnes,58,"Paris, France",17634.4,0,1,1,1,0
+eaadfb6a-f43d-45ec-b2c1-76b15b23e595,Megan Crawford,29,"LA, USA",27037.5,0,0,0,0,0
+6ea991e4-04f3-4fab-80b2-58796668411a,David Pittman,68,"LA, USA",16275.0,0,0,0,0,0
+1d8190e8-5381-4760-85bd-ec5fc67f72e8,Allison Thomas,28,"Milan, Italy",47302.5,1,1,0,0,0
+b241b46c-9e7b-4798-aea1-66ae2c9763c3,Gary Chen,45,"Madrid, Spain",41422.5,1,1,1,0,0
+c5193c29-2380-4eeb-b91b-511c0cf26190,Patrick Boone,83,"Paris, France",3202.5,0,1,1,1,0
+c98d8129-dfea-4fcc-b8ac-3f9245cc772c,Thomas Vargas,61,"Milan, Italy",15592.5,0,1,0,0,0
+94d1628e-7134-4c63-b06d-dac3f6593b26,Brittany Klein,65,"Paris, France",34242.6,0,1,1,1,0
+cc37df38-e346-41cc-884d-241ab9b2add9,Brian Long,42,"San Jose, USA",41659.2,1,0,0,0,1
+87e3072c-24fa-4f9d-8a85-87f09e27988b,Richard Fox,49,"San Jose, USA",25195.4,0,0,0,0,1
+5c9ce25d-a18a-474c-945f-6156bd49f4c0,Dr. Brittany Williams,81,"San Jose, USA",31928.2,0,0,0,0,1
+ec1fb3bf-3cfc-4dea-bcc9-20bebf17ab6b,Danielle Rodriguez,59,"Milan, Italy",5365.2,0,1,0,0,0
+b7fc3757-d3c6-4e27-8fb0-3f4fc7fe1c75,Veronica Allen,23,"Madrid, Spain",10302.4,0,1,1,0,0
+e674451e-7092-45ba-a22f-5d136a1fc1b3,Sarah Henry,37,"Madrid, Spain",44815.2,1,1,1,0,0
+f905729f-b011-4dc4-9d07-26d89f75a6c9,Lucas Fowler,78,"Madrid, Spain",52442.2,1,1,1,0,0
+a05c98ff-c459-458d-9a74-7662749b2fb9,Michelle Brown,89,"Milan, Italy",8121.6,0,1,0,0,0
+9ef70ac9-11a0-4567-8491-6c52f3366ce5,Randy Macdonald,22,"Madrid, Spain",9750.4,0,1,1,0,0
+c2bb6687-9af6-4c63-8e3b-d8ff8d003bdc,Virginia Hess,25,"Madrid, Spain",13705.2,0,1,1,0,0
+3125974f-3ea1-437d-8984-de6eaaf72daf,Patrick Hodge,61,"Madrid, Spain",4850.4,0,1,1,0,0
+26620e76-3f96-4e64-93b5-dcd5543a8ed3,Trevor Garrison,90,"Milan, Italy",10866.4,0,1,0,0,0
+ea4a6a4d-71b4-43e5-aa0e-da038c65a4ee,Amanda Reyes,75,"Milan, Italy",8347.2,0,1,0,0,0
+7cab6c87-245a-4bb4-83b6-344f588b8bd8,Jared Doyle,51,"LA, USA",16356.0,0,0,0,0,0
+ab9ec693-0bc4-42dd-89f7-a1b9fc1aa7f9,Brian Garrison,83,"Paris, France",5092.4,0,1,1,1,0
+8dea7db0-1e36-4218-8952-0fb5bd281936,Amy Johnson,24,"Madrid, Spain",31651.9,0,1,1,0,0
+80a60d46-e8ca-4b54-8b41-fa899659bdec,John Wolfe,48,"Paris, France",11896.9,0,1,1,1,0
+edbdbded-fa21-4a35-a0dc-98f78ff3b5f6,Dustin Dunn,45,"LA, USA",26471.7,0,0,0,0,0
+c3b1fbbf-df68-4f49-a416-a3a36a43488f,Jesse Martin,55,"San Jose, USA",15628.4,0,0,0,0,1
+f70ce9f8-a853-4f56-9b2e-55a4ab9746e3,Brianna Robertson,43,"Milan, Italy",33100.6,0,1,0,0,0
+238666d9-df9a-42e7-b88a-044b89228724,Anna Perkins,75,"Madrid, Spain",34681.0,0,1,1,0,0
+e55936d5-44e5-4a6f-825e-f916875bd25a,Phyllis Hernandez,39,"San Jose, USA",13652.9,0,0,0,0,1
+080af388-50f5-4a76-9852-f853c6f2ae25,Melissa Mills,64,"Paris, France",75566.3,1,1,1,1,0
+8fa43f7b-f0f6-4d9e-b2ea-d5b5d62122a8,Sean Dawson,36,"San Jose, USA",2261.0,0,0,0,0,1
+6e4bc33c-8cb3-46a3-bf0b-f4aca25c463b,Alyssa Bartlett,18,"LA, USA",11624.2,0,0,0,0,0
+5dc49acc-d277-4a29-b6c8-b78202b30766,David Thomas,85,"Milan, Italy",57573.1,1,1,0,0,0
+f0fedb2d-9a12-411b-9149-310565618ad5,Carl Sanchez,51,"Madrid, Spain",64050.9,1,1,1,0,0
+b7a4c65a-d5a9-4b31-800c-22cb0a65d75c,Amanda Hernandez,24,"San Jose, USA",22738.4,0,0,0,0,1
+b383df5a-9b4e-469a-8600-363c33c8f77b,Fernando Martin,32,"San Jose, USA",12360.7,0,0,0,0,1
+71bbf4f9-e87b-4bc5-8203-ccc8dd1bb2d6,Henry Mccoy,16,"San Jose, USA",19499.5,0,0,0,0,1
+5ad2c2a2-7b70-4b05-990b-440fde7ae903,John Stewart,46,"Milan, Italy",37677.0,1,1,0,0,0
+4f6309db-7eb4-4014-808b-15a42025b224,Rachel Hayes,53,"Milan, Italy",19565.6,0,1,0,0,0
+68d3d554-a889-4aa2-8a67-1c43303c2059,Matthew Morgan,28,"Paris, France",34900.8,0,1,1,1,0
+c1a13add-7d65-4ea8-9a54-55928ca29c4c,Rebecca Leonard,43,"LA, USA",41775.2,1,0,0,0,0
+e61fd64b-b693-4be8-a038-1e589f1dc0db,Angela Lopez,33,"Paris, France",27299.3,0,1,1,1,0
+06de0cc8-8a22-4366-a1be-df76ad48144e,Dr. Yesenia Lopez,46,"Milan, Italy",37060.7,1,1,0,0,0
+b0d0535a-b1c5-4aca-bac1-250591d810e4,Kelly Parker,24,"San Jose, USA",6544.6,0,0,0,0,1
+14558fe5-7808-4c9d-9f34-f4b8a23babb9,Jose Morales,38,"Milan, Italy",18187.9,0,1,0,0,0
+bb41c077-516b-4a16-994a-9cf866149ea0,Michael Swanson,55,"Madrid, Spain",3805.0,0,1,1,0,0
+f61e2e7e-9720-4152-8467-ec6f0f7a2495,Daniel Hall,55,"LA, USA",74654.1,1,0,0,0,0
+c515fb8b-b646-45db-aeac-6c6e2f687c4a,Leah Jones,22,"Madrid, Spain",41322.3,1,1,1,0,0
+6829764e-cc1b-48cc-99a5-fe5a8e7611b4,Raymond Pacheco,72,"Milan, Italy",61080.8,1,1,0,0,0
+44d9c34d-a1b7-4ecb-9d5e-3bb1620509d3,Joe Smith,38,"Paris, France",38913.6,1,1,1,1,0
+3bb46cad-ee05-45be-bce9-2b3af07e3c81,Karen Higgins,62,"Madrid, Spain",5324.0,0,1,1,0,0
+99aee9f0-3c99-4dcf-8ad2-95e06e08a1ba,Alan Chase,58,"San Jose, USA",63404.0,1,0,0,0,1
+0f7e51f0-16e1-4a1f-92e6-a97e774d8088,Robert Chen,76,"LA, USA",131869.59999999998,1,0,0,0,0
+54f94381-98a6-4eb2-9bb5-6da4ba9dc10b,Taylor Garcia,38,"LA, USA",26166.0,0,0,0,0,0
+296ba891-281c-4d4f-a253-6d2eec8a54f7,Brandon Martin,86,"Madrid, Spain",16346.4,0,1,1,0,0
+09a182b7-54f9-42b8-ad1b-d760d2982e48,Jerry Frederick,37,"Paris, France",29282.4,0,1,1,1,0
+3557a8f3-268c-4783-a9ae-d42a9303e607,Daniel Green,53,"LA, USA",529.2,0,0,0,0,0
+fb97fb3b-b965-4524-886d-63d8ad58fdd1,Joan Taylor,19,"LA, USA",1881.6,0,0,0,0,0
+b8602461-9f62-429b-b618-fd0bfb3f1863,Sharon Jones,15,"Paris, France",24278.1,0,1,1,1,0
+63eb8d8c-c58f-4c79-8aca-97bb9d04065d,Danielle Nicholson,60,"Madrid, Spain",20903.4,0,1,1,0,0
+097b561f-1e81-4332-883c-2b3610e278b7,Jamie Wilson,83,"Milan, Italy",558.6,0,1,0,0,0
+fae023b0-b2a2-46ab-b86b-5569f5cdc6f2,Tara Hansen,40,"San Jose, USA",12201.0,0,0,0,0,1
+01f3eb70-4ea5-4254-afa8-716b764cd9f1,Tanya Knox,64,"Milan, Italy",53743.2,1,1,0,0,0
+2c544567-5493-4a48-b218-ffa3c20dbea9,Tracy Johnson,75,"Madrid, Spain",72754.4,1,1,1,0,0
+76ae0960-38d3-4ea4-9a45-a079bb46e109,Theresa Johnson,65,"San Jose, USA",50178.6,1,0,0,0,1
+09713584-48ce-44d8-82dd-fc295689dbff,Jeremy Allison,18,"San Jose, USA",43323.6,1,0,0,0,1
+1a9422fa-dfb0-4b0b-89aa-eb7c4e05719c,Megan Holden,85,"Madrid, Spain",31258.8,0,1,1,0,0
+1670a2d2-a82b-4054-b0be-4ff2a670b208,Jimmy Navarro,40,"Madrid, Spain",393.6,0,1,1,0,0
+a3c824b1-35bf-4f1c-8bf7-e62e6b1851d1,Carrie Garcia,49,"Paris, France",557.6,0,1,1,1,0
+aeb3967b-5434-4260-ad3b-0205e981e274,Janet Robinson,59,"Paris, France",10463.2,0,1,1,1,0
+0da2baf5-3753-4925-9416-26db6a55f51e,Thomas Lynch,69,"San Jose, USA",15875.2,0,0,0,0,1
+6dbc7961-de54-4e55-81b0-616af5e7f573,Jacob Pacheco,40,"Paris, France",32012.8,0,1,1,1,0
+e76c6ac4-4ccf-48a7-884d-30fc2cbb7936,Robin Hicks,75,"LA, USA",8888.8,0,0,0,0,0
+1efb3570-df2e-41cd-a9d9-0d3a915a4d23,Austin Pruitt,82,"Madrid, Spain",23419.2,0,1,1,0,0
+cd0e9dc0-5a07-497f-b61f-13df86f3f5fe,John Peterson,34,"Paris, France",9315.2,0,1,1,1,0
+7199075d-769e-48a8-a9b4-1f4996950c78,Francisco Harvey,50,"Paris, France",10430.4,0,1,1,1,0
+e8f5706f-4978-41bd-892c-274a710780fd,Katherine King,20,"LA, USA",36901.2,1,0,0,0,0
+0ae8b224-d6ed-4ae1-baf8-271adc738f5d,Bradley Mckenzie,59,"Madrid, Spain",993.2,0,1,1,0,0
+6f102a05-8b9b-45e6-9f9e-10d6ceabbfa8,Brenda Hood,69,"LA, USA",5653.6,0,0,0,0,0
+0280b786-ffe4-449d-a719-2f587a0601a2,Valerie Meyer,35,"Milan, Italy",20398.8,0,1,0,0,0
+71f4f278-acc3-4c32-bd97-22e4783b3e3e,Shaun Mcgrath,42,"Madrid, Spain",36115.2,1,1,1,0,0
+d2f9ee79-1f4d-4573-837b-4499abf9e0f6,Jason Armstrong,55,"LA, USA",29657.1,0,0,0,0,0
+27cc6b75-536e-4b6d-9571-88e52de88c73,Jacob Carr,31,"Madrid, Spain",7335.9,0,1,1,0,0
+92428ae0-3200-4d87-a45b-1357d7b4e3c3,Marc Stanton,90,"LA, USA",42197.1,1,0,0,0,0
+1a9a8ec6-a276-4a41-8b5c-742b945dba69,Catherine Simpson,75,"San Jose, USA",49658.4,1,0,0,0,1
+45100101-cc16-44b0-8147-113a46dbd9dc,Christine Gamble,71,"San Jose, USA",54235.5,1,0,0,0,1
+26fcbf40-cbac-4636-8c52-f2eea778b6a0,Shane Hart,81,"Paris, France",59251.5,1,1,1,1,0
+813b1420-d08f-41f5-bd19-3fcce1106b1a,Jacob Guzman,33,"LA, USA",23136.3,0,0,0,0,0
+8d271882-6280-4eec-83a5-75ad60c0e3a2,Samantha Wilson,88,"Madrid, Spain",34735.8,0,1,1,0,0
+e46dc3e6-6215-486e-a5b6-c195e7d4042f,David Beck,34,"Madrid, Spain",47338.5,1,1,1,0,0
+c83f5eb0-0cb7-4afb-bbc8-b525dc541806,Stephanie Rice,79,"Milan, Italy",20941.8,0,1,0,0,0
+b165c425-3551-4bd4-99d4-5e5dfcce4abd,Karen Edwards,74,"Madrid, Spain",55176.0,1,1,1,0,0
+fe737739-938c-474b-b2f1-c98e21f3d36a,Ashley Stokes,39,"Milan, Italy",59126.1,1,1,0,0,0
+3a9d12e7-ced3-4ab2-8dd9-4a2e8e1cefa9,Alexis Lopez,28,"Milan, Italy",6019.2,0,1,0,0,0
+acdf85b3-7a32-4452-9031-88b61f896932,Janice Lewis,34,"Madrid, Spain",22167.6,0,1,1,0,0
+905e87b4-0423-4806-934b-65871403da2d,Christina Taylor,34,"Paris, France",19105.2,0,1,1,1,0
+20ff49c1-6912-481e-ba3d-ad2e378ecf0a,Shannon Lee,55,"LA, USA",18687.6,0,0,0,0,0
+19b2601f-729f-487f-a885-27b9536b1c7e,Lori Williams DVM,58,"San Jose, USA",4558.8,0,0,0,0,1
+b7f1c230-b695-4f8e-bbe5-ba42cbfda799,Jamie Dickson,69,"Paris, France",4559.0,0,1,1,1,0
+ad84b2d9-ed3a-42ae-b01a-94cc187deaa4,Terry Schwartz,88,"Madrid, Spain",7934.6,0,1,1,0,0
+4e73a2aa-629a-4a7b-8875-1e479db3a490,Christian Ramirez,37,"Paris, France",7313.8,0,1,1,1,0
+a3668a76-5146-42df-a14c-b3e4c6c65c61,Linda White,41,"Paris, France",2541.4,0,1,1,1,0
+6141a0ab-76a1-48d9-9f00-8d3c8545da34,Sara Howard,82,"LA, USA",12648.8,0,0,0,0,0
+98a0bb70-d8f3-463c-87a6-bffa20857145,Sharon Richardson,60,"Milan, Italy",29032.0,0,1,0,0,0
+c3af0cf3-4a89-498e-91d6-c297ca48fd9a,Sarah Brown,26,"LA, USA",1763.2,0,0,0,0,0
+b8567b70-f606-4ff9-88b5-f2a68df62a11,Jennifer Strickland,62,"Paris, France",2705.6,0,1,1,1,0
+00d8b64e-c116-466d-b0b2-f14aa6604167,Anthony Mcfarland,78,"San Jose, USA",1298.0,0,0,0,0,1
+a3b0a299-e8fe-45e6-873a-b93270150b12,Derek Ramos Jr.,60,"Milan, Italy",2497.0,0,1,0,0,0
+6f303049-878d-40cb-bab1-587db22bd5c6,Amanda Santana,47,"LA, USA",1837.0,0,0,0,0,0
+b53609ea-63d9-4477-9668-6479a0be4c63,Brandi Yates,79,"Madrid, Spain",3949.0,0,1,1,0,0
+c4a52b0e-5feb-4e23-a3ec-168a44da4c4d,Charles Garcia,90,"Milan, Italy",33196.8,0,1,0,0,0
+23cddc72-34d0-46a2-898e-0c8637240742,Kimberly Baxter,42,"Milan, Italy",27939.0,0,1,0,0,0
+9a9b08c7-5215-4c92-94e0-14e4662d9020,Nicholas Hale,37,"Madrid, Spain",29725.5,0,1,1,0,0
+c2de10a3-1ae4-492d-a361-060ded7bb688,Kathy Smith,61,"San Jose, USA",3471.3,0,0,0,0,1
+7ec68c6a-1fee-4841-a9b0-e60ee571c797,Jennifer Riley,56,"Madrid, Spain",948.6,0,1,1,0,0
+e45dcfc8-21ec-4908-9caa-1bc3da5f9885,Matthew Rogers,32,"Milan, Italy",2310.3,0,1,0,0,0
+b342b4c6-c880-4a9d-8402-ab81dd17eee0,David Barron,46,"San Jose, USA",4544.1,0,0,0,0,1
+c401a735-87e7-4254-a5aa-b528ed2eefa6,Steven Nelson,66,"LA, USA",14382.0,0,0,0,0,0
+f9e4cb73-7629-4beb-8dbe-0921094f953c,Joseph Bennett,73,"Milan, Italy",16732.2,0,1,0,0,0
+29a4bd20-2a5f-4f0d-8a1b-b184b51ccdf7,Susan Jacobs,34,"Milan, Italy",12584.7,0,1,0,0,0
+31ac7e8e-fea2-4b8b-9158-d3b2204122a4,Dakota Mccall,29,"San Jose, USA",7394.4,0,0,0,0,1
+5175204b-df99-4b8e-a333-69078e4e9401,William Warren,64,"LA, USA",33867.5,0,0,0,0,0
+7c192e74-bff0-45b4-81b4-b32ad777707c,Teresa Cooke,77,"Paris, France",14582.5,0,1,1,1,0
+a1cae0da-4faa-4eb2-a28a-de113375bd61,Connor Wilson,79,"San Jose, USA",44982.5,1,0,0,0,1
+9d227153-07a3-444e-b4f9-a3c33297e6da,Heather Trevino,45,"Paris, France",4465.0,0,1,1,1,0
+6c2abc87-2336-4c46-abe9-2fbadb04d5aa,Howard Bennett,70,"LA, USA",9737.5,0,0,0,0,0
+e7697f84-5231-49c0-b969-6bac818ca2b9,William Guzman,23,"Madrid, Spain",32632.5,0,1,1,0,0
+5e8b1c54-3ec4-4a2c-95b6-309191915b08,Sarah Lopez,81,"Madrid, Spain",16387.5,0,1,1,0,0
+c666d332-dcad-4841-a2a9-9946b8ca96c4,Mathew Baker,76,"LA, USA",386.5,0,0,0,0,0
+9e0ab2c3-fa72-4ee1-89fe-86e318dd1017,Natalie Rhodes,49,"Madrid, Spain",499.0,0,1,1,0,0
+f9aa28b2-3449-49bf-b553-86aae4b4c69d,Adam Anderson,63,"Milan, Italy",149.5,0,1,0,0,0
+8cc36114-8dc6-40bc-895d-2c532c900dd2,Amy Vang,56,"San Jose, USA",204.5,0,0,0,0,1
+dad51d78-0f87-46b7-a6bd-bf8be2faa225,Andrew Fitzgerald,83,"San Jose, USA",353.5,0,0,0,0,1
+aee1ef4a-b6a1-495c-a9bf-f1bd62b64b6b,Connie Anderson,40,"Paris, France",16496.4,0,1,1,1,0
+d6d55b5a-0958-4a73-bf73-c37011f730a0,Cheryl Ponce,54,"Paris, France",796.5,0,1,1,1,0
+949974d6-addb-480e-bf30-50c50830bdbd,Wendy Fowler,71,"Paris, France",11274.9,0,1,1,1,0
+350eb43f-d35d-497d-ba24-3fa7fd1d556b,Stephen Heath,40,"LA, USA",6035.7,0,0,0,0,0
+3fcb20e6-b5e5-43e4-96a3-f1dd6f0c64a2,Gary Park,15,"LA, USA",265.5,0,0,0,0,0
+04d761a4-e61d-4cf3-9512-80f108489e55,Morgan Washington,46,"Paris, France",11505.0,0,1,1,1,0
+d83ce4bb-252d-45a7-9c0c-967b6f81b928,Susan Gomez,36,"San Jose, USA",4857.8,0,0,0,0,1
+c8bba385-ccc2-4223-ac9b-93ecc1fa32ab,Robert Li,76,"Paris, France",4322.8,0,1,1,1,0
+49f6a175-47dc-440c-a7f5-f75a13c43b4d,Mary Bell,66,"Paris, France",4108.8,0,1,1,1,0
+f7b12eca-2177-4731-bf8c-09ad7e0f99c9,Jeremy Finley,34,"Milan, Italy",9116.4,0,1,0,0,0
+ec6c8b96-0e27-4f36-a044-659b054f9a5e,Gerald Weaver,76,"Madrid, Spain",15044.2,0,1,1,0,0

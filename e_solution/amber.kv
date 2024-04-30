@@ -1,0 +1,64 @@
+
+# :kivy 2.0.0
+<AmberContent>:
+    name: 'amber_home'
+    BoxLayout:
+        orientation: 'vertical'
+        MDTopAppBar:
+            md_bg_color: app.theme_cls.primary_dark
+            specific_text_color: app.theme_cls.primary_light
+            elevation: 1
+            BoxLayout:
+                orientation: 'horizontal'
+                padding: [10, 0, 0, 25]
+                GridLayout:
+                    cols: 2
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        spacing: '10dp'
+                        MDRoundFlatIconButton:
+                            icon: 'home'
+                            text: 'solution home'
+                            font_size: '14sp'
+                            on_release:
+                                app.title = app.solution_title
+                                app.callback_top_nav('solution_home')
+                        MDRoundFlatIconButton:
+                            icon: 'format-size'
+                            text: 'window_size'
+                            font_size: '14sp'
+                            on_release:
+                                app.selection_dropdown(self, 'navbar')
+                MDRoundFlatIconButton:
+                    icon: 'copyright'
+                    text: app.get_current_year('Datanota')
+                    font_size: '14sp'
+                    on_release:
+                        app.sage_window_ss('sage.png')
+        BoxLayout:
+            orientation: 'vertical'
+            TabbedPanel:
+                id: amber_tabs
+                tab_width: (self.parent.width - 10) / 4
+                do_default_tab: False
+                tab_pos: 'bottom_mid'
+                background_image: ''
+                background_color: 54/255, 65/255, 79/255
+                TabbedPanelItem:
+                    id: amber_default_tab
+                    text: 'schema'
+                    color: 215/255, 163/255, 9/255
+                    background_down: ''
+                    BoxLayout:
+                        orientation: 'vertical'
+                        spacing: '10dp'
+                        MDLabel:
+                            text: 'Amber - Stock ROI Calculator'
+                            halign: 'center'
+                            theme_text_color: 'Custom'
+                            text_color: 'E4C772'
+                            font_style: 'H4'
+                            size_hint: 1, 0.1
+                        Image:
+                            source: app.get_assets_path('sage_5_solution/amber_db.png')
+                            allow_stretch: True

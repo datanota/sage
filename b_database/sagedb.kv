@@ -1,0 +1,105 @@
+
+# :kivy 2.0.0
+
+<SageDBContent>:
+
+    ScreenManager:
+        id: screen_manager
+        canvas:
+            Color:
+                rgb: 212/255, 213/255, 212/255
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+        Screen:
+            name: 'db_home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        padding: [10, 0, 0, 25]
+                        GridLayout:
+                            cols: 2
+                            BoxLayout:
+                                orientation: 'horizontal'
+                                spacing: '10dp'
+                                MDRoundFlatIconButton:
+                                    icon: 'format-size'
+                                    text: 'window_size'
+                                    font_size: '14sp'
+                                    on_release:
+                                        app.selection_dropdown(self, 'navbar')
+                        MDRoundFlatIconButton:
+                            icon: 'copyright'
+                            text: app.get_current_year('Datanota')
+                            font_size: '14sp'
+                            on_release:
+                                app.sage_window_ss('sage.png')
+                GridLayout:
+                    cols: 2
+                    padding: '30dp'
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    BoxLayout:
+                        orientation: 'vertical'
+                        padding: 0, 0, 0, 50
+                        Image:
+                            source: app.get_assets_path('sage_applogo.png')
+                            allow_stretch: True
+                    GridLayout:
+                        rows: 6
+                        spacing: '15dp'
+                        padding: [30, 100, 20, 250]
+                        ######################### engine list parent button
+                        MDRectangleFlatIconButton:
+                            id: db_home_engine_list
+                            icon: 'database'
+                            text: 'engine'
+                            icon_color: 0, 0, 0
+                            text_color: 0, 0, 0
+                            font_size: '20sp'
+                            md_bg_color: 131/255, 173/255, 160/255
+                            size_hint_x: 0.97
+                            on_release:
+                                app.list_db_home_engines()
+
+#########################################################
+########################################################## database screen
+##########################################################
+
+        Screen:
+            name: 'db_screen'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ['home', lambda x: app.callback_top_nav('db_home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_window_ss('sage.png')]
+                        ]
+                BoxLayout:
+                    orientation: 'vertical'
+                    id: db_widget
+
+

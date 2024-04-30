@@ -1,0 +1,156 @@
+
+# :kivy 2.0.0
+
+<SageContent>:
+
+    ScreenManager:
+        id: screen_manager
+        canvas:
+            Color:
+                rgb: 212/255, 213/255, 212/255
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+        Screen:
+            name: 'home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        padding: [10, 0, 0, 25]
+                        GridLayout:
+                            cols: 2
+                            BoxLayout:
+                                orientation: 'horizontal'
+                                spacing: '10dp'
+                                MDRoundFlatIconButton:
+                                    icon: 'format-size'
+                                    text: 'window size'
+                                    font_size: '14sp'
+                                    on_release:
+                                        ############## calls function for app window size dropdown options
+                                        app.window_size_settings(self)
+                        MDRoundFlatIconButton:
+                            icon: 'copyright'
+                            text: app.get_current_year('Datanota')
+                            font_size: '14sp'
+                            on_release:
+                                app.sage_window_ss('sage.png')
+                BoxLayout:
+                    orientation: 'vertical'
+                    canvas:
+                        Color:
+                            rgb: 212/255, 213/255, 212/255
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    GridLayout:
+                        cols: 2
+                        padding: '30dp'
+                        BoxLayout:
+                            orientation: 'vertical'
+                            padding: 0, 0, 0, 50
+                            Image:
+                                source: app.get_assets_path('sage_applogo.png')
+                                allow_stretch: True
+                        GridLayout:
+                            rows: 6
+                            spacing: '15dp'
+                            padding: [30, 120, 20, 100]
+                            ######################### a generic function is called for each sage data-360 section
+                            ######################### the extra space in button text string is to alight section names
+                            MDFillRoundFlatIconButton:
+                                icon: 'file'
+                                text: 'data-set            '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_section_overview('sage_1_dataset/sage_dataset_overview.png')
+                            MDFillRoundFlatIconButton:
+                                icon: 'database'
+                                text: 'data-bases       '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_section_overview('sage_2_db/sage_database_overview.png')
+                            MDFillRoundFlatIconButton:
+                                icon: 'graph'
+                                text: 'data-insights   '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_section_overview('sage_3_insight/sage_insights_overview.png')
+                            MDFillRoundFlatIconButton:
+                                name: 'l2_b'
+                                icon: 'grid'
+                                text: 'data-patterns   '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_section_overview('sage_4_pattern/sage_patterns_overview.png')
+                            MDFillRoundFlatIconButton:
+                                name: 'l2_b'
+                                icon: 'key'
+                                text: 'data-solutions  '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 131/255, 173/255, 160/255
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_section_overview('sage_5_solution/sage_solutions_overview.png')
+                            MDFillRoundFlatIconButton:
+                                name: 'demo_home_b'
+                                icon: 'play-circle'
+                                text: 'product demo   '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 1, 1, 1
+                                size_hint: 1, None
+                                on_release:
+                                    app.dn_sage_demo()
+        Screen:
+            name: 'generic_screen'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ######################### transition to home screen
+                        ['home', lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ######################### a copyright button with no tooltip to take ss of the screen
+                        ["copyright", lambda x: app.sage_window_ss('sage.png'), '']
+                        ]
+                BoxLayout:
+                    orientation: 'vertical'
+                    id: section_overview
+                    ######################### the parent widget to add sage data-360 section images
