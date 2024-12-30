@@ -1,0 +1,255 @@
+
+# :kivy 2.0.0
+
+<SageContent>:
+    ScreenManager:
+        id: screen_manager
+        canvas.before:
+            Color:
+                rgb: app.dict_sage_theme_colors().get('app_background')
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+##########################################################
+########################################################## home screen
+##########################################################
+
+        Screen:
+            name: 'home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        padding: [10, 0, 0, 25]
+                        GridLayout:
+                            cols: 2
+                            BoxLayout:
+                                orientation: 'horizontal'
+                                spacing: '10dp'
+                                MDRoundFlatIconButton:
+                                    icon: 'format-size'
+                                    text: 'window size'
+                                    font_size: '14sp'
+                                    on_release:
+                                        app.selection_dropdown(self, 'navbar')
+                        MDRoundFlatIconButton:
+                            icon: 'copyright'
+                            text: app.get_current_year('Datanota')
+                            font_size: '14sp'
+                            on_release:
+                                app.sage_window_ss('sage.png')
+                BoxLayout:
+                    orientation: 'vertical'
+                    GridLayout:
+                        cols: 2
+                        padding: '30dp'
+                        BoxLayout:
+                            orientation: 'vertical'
+                            padding: 0, 0, 0, 50
+                            Image:
+                                source: app.get_assets_path('sage_applogo.png')
+                                allow_stretch: True
+                        GridLayout:
+                            rows: 6
+                            spacing: '15dp'
+                            padding: [30, 120, 20, 100]
+                            # TODO: populate the app home buttons from the py file
+                            MDFillRoundFlatIconButton:
+                                icon: 'file'
+                                text: 'data-set             '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: app.dict_sage_theme_colors().get('app_button_background')
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_dataset_widgets()
+                            MDFillRoundFlatIconButton:
+                                icon: 'database'
+                                text: 'data-base          '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: app.dict_sage_theme_colors().get('app_button_background')
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_db_widgets()
+                            MDFillRoundFlatIconButton:
+                                icon: 'graph'
+                                text: 'data-insights    '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: app.dict_sage_theme_colors().get('app_button_background')
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_insights_widgets()
+                            MDFillRoundFlatIconButton:
+                                icon: 'grid'
+                                text: 'data-patterns    '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: app.dict_sage_theme_colors().get('app_button_background')
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.pattern_section_layout()
+                            MDFillRoundFlatIconButton:
+                                icon: 'key'
+                                text: 'data-solutions  '
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: app.dict_sage_theme_colors().get('app_button_background')
+                                size_hint_x: 0.97
+                                on_release:
+                                    app.get_solutions_widgets()
+                            MDFillRoundFlatIconButton:
+                                icon: 'play-circle'
+                                text: 'sage-data360 demo'
+                                icon_color: 0, 0, 0
+                                text_color: 0, 0, 0
+                                font_size: '20sp'
+                                md_bg_color: 1, 1, 1
+                                size_hint: 1, None
+                                on_release:
+                                    app.dn_sage_demo()
+
+##########################################################
+########################################################## dataset screen
+##########################################################
+
+        Screen:
+            name: 'data_home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ['home', lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ######### a copyright button with no tooltip to take ss of the screen
+                        ["copyright", lambda x: app.sage_window_ss('sage.png'), '']
+                        ]
+                BoxLayout:
+                    orientation: 'vertical'
+                    spacing: '0dp'
+                    id: dataset_box
+
+##########################################################
+########################################################## database screen
+##########################################################
+
+        Screen:
+            name: 'db_home'
+            BoxLayout:
+                orientation: 'vertical'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ['home', lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_window_ss('sage.png'), '']
+                        ]
+                BoxLayout:
+                    orientation: 'vertical'
+                    id: db_widget
+                    padding: [0, 20, 0, 0]
+
+##########################################################
+########################################################## insights screen
+##########################################################
+
+        Screen:
+            name: 'insights_home'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ['home', lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_window_ss('sage.png'), '']
+                        ]
+                BoxLayout:
+                    orientation: 'vertical'
+                    spacing: '0dp'
+                    id: insights_box
+
+##########################################################
+########################################################## patterns screen
+##########################################################
+
+        Screen:
+            name: 'patterns_home'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ['home', lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_window_ss('sage.png'), '']
+                        ]
+                BoxLayout:
+                    orientation: 'vertical'
+                    id: patterns_box
+
+##########################################################
+########################################################## solutions screen
+##########################################################
+
+        Screen:
+            name: 'solutions_home'
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '0dp'
+                MDTopAppBar:
+                    md_bg_color: app.theme_cls.primary_dark
+                    specific_text_color: app.theme_cls.primary_light
+                    elevation: 1
+                    padding: '15dp'
+                    left_action_items:
+                        [
+                        ['home', lambda x: app.callback_top_nav('home'), 'home']
+                        ]
+                    right_action_items:
+                        [
+                        ["copyright", lambda x: app.sage_window_ss('sage.png'), '']
+                        ]
+                GridLayout:
+                    id: solutions_home_layout
+                    rows: 3
+                    spacing: '15dp'
+                    padding: [30, 100, 20, 100]
